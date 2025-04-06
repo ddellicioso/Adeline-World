@@ -29,9 +29,7 @@ const WorksPage = () => {
         <WorksListComponent />
       </section>
 
-      <footer>
-        <Footer />
-      </footer>
+
     </>
   );
 };
