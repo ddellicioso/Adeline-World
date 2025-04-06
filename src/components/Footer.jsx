@@ -22,17 +22,6 @@ const Footer = () => {
 
 
 
-  if (currentIndex === WorksList.length - 1) {
-    nextIndex = 0;
-    previousIndex = currentIndex - 1;
-  } else if (currentIndex === 0) {
-    nextIndex = currentIndex + 1;
-    previousIndex = WorksList.length - 1;
-  } else {
-    nextIndex = currentIndex + 1;
-    previousIndex = currentIndex - 1;
-  }
-
   // Access URL segment that contains the learning outcome detail of the work
   const backLink = pathName.pathname.split("/")[2];
   console.log(backLink);
