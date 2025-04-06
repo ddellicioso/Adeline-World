@@ -35,7 +35,7 @@ export const loTitles = [
 import studioPlataleaRuleGeometry from "../assets/png/studioPlataleaRuleGeometry.png";
 import studioPlataleaFinishedRule from "../assets/png/studioPlataleaFinishedRule.png";
 import studioPlataleaBrandbook from "../assets/pdf/studioPlataleaBrandbook.pdf";
-import { context } from "@react-three/fiber";
+
 
 // Portfolio Moodboard //
 import inspirationPortfolioVideo from "../assets/worksPhotos/inspirationPortfolioVideo.mp4";
