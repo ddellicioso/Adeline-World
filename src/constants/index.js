@@ -83,8 +83,8 @@ export const learningOutcomes = [
 export const socials = [
   {
     id: "2",
-    title: "Gitlab",
-    url: "https://git.fhict.nl/I353593",
-    alt: "Gitlab",
+    title: "GitHub Repository",
+    url: "https://github.com/ddellicioso/Adeline-World",
+    alt: "GitHub",
   },
 ];
