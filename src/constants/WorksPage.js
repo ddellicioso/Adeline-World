@@ -237,12 +237,12 @@ export const WorksList = [
   
   // -------------------------- Studio Platalea Team Charter ------------------------------ //
   {
-    outcomes: [`LearningOutcomeFour`],
+    outcomes: [`LearningOutcomeFour`, `LearningOutcomeFive`],
     fittingOutcomes: [
       { outcomeNum: "1" },
       { outcomeNum: "2" },
       { outcomeNum: "3" },
-      { outcomeNum: "4" },
+      { outcomeNum: "4", value: true  },
       { outcomeNum: "5", value: true },
     ],
     outcomeDesc: [
