@@ -47,16 +47,7 @@ export const hamburgerNavigation = [
     title: "Projects",
     hash: "#projects",
   },
-  {
-    id: "2",
-    title: "About",
-    hash: "#about",
-  },
-  {
-    id: "3",
-    title: "Contact",
-    hash: "#contact",
-  },
+
 ];
 
 export const learningOutcomes = [
@@ -90,12 +81,6 @@ export const learningOutcomes = [
 
 
 export const socials = [
-  {
-    id: "0",
-    title: "Linkedin",
-    url: "https://www.linkedin.com/in/ellyshia-cheryl-tan-2758a62b3/",
-    alt: "Linkedin",
-  },
   {
     id: "2",
     title: "Gitlab",
