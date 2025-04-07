@@ -17,7 +17,7 @@ const WorkDetailPage = () => {
           <aside className="basis-[15%]">
             <WorkDetail2 />
           </aside>
-            <div className="basis-[90%] p-[2rem]">
+            <div className="basis-[90%] pr-10">
               <WorkTitle />
             </div>
         </div>
