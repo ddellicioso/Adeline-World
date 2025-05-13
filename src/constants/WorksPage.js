@@ -63,6 +63,10 @@ import studioPlataleaFontsStyle from "../assets/worksPhotos/studioPlataleaFontsS
 import studioPlataleaInitialStyle from "../assets/worksPhotos/studioPlataleaInitialStyle.png";
 import studioPlataleaGeometryStyle from "../assets/worksPhotos/studioPlataleaGeometryStyle.png";
 
+// Personal Literature Research //
+import PersonalLiteratureStudyCognitive from "../assets/pdf/BarrierstoDigitalAccessibilityforPersonswithCognitiveDisabilities.pdf"
+
+
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -413,6 +417,36 @@ export const WorksList = [
             feedbackTitle: `Feedback from teacher`,
             feedback: `We went to Dirk to show our progress, and he agreed that the geometric shapes look nice, but we should make a rule 
             for the shapes so it won’t be completely abstract, and other people who wants to recreate it, would know how to make it properly. `
+          }
+        ]
+      }
+    ]
+  },
+
+  // --------- Personal Literature Research on Cognitive Disability --------- //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3" },
+      { outcomeNum: "4", value: true},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Studio Platalea Stylescapes",
+    project: "Studio Project",
+    url: "studioPlataleaStylescapes",
+    process: [
+      {
+        content: [
+          {
+            text: `	After the interview with our client, our group decided to focus on cognitive 
+            disability and assign each of us to do our personal research and later on discuss which 
+            disability we want to focus. 
+            I chose dyslexia because it's one of the common disability and I feel like majority of 
+            people doesn't take it seriously, so I want to raise awareness about this disability.`,
+            document: [PersonalLiteratureStudyCognitive]
           }
         ]
       }
