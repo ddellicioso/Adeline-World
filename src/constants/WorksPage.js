@@ -425,7 +425,7 @@ export const WorksList = [
 
   // --------- Personal Literature Research on Cognitive Disability --------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeFour`],
     fittingOutcomes: [
       { outcomeNum: "1" },
       { outcomeNum: "2" },
@@ -434,9 +434,9 @@ export const WorksList = [
       { outcomeNum: "5"},
     ],
     id: "1",
-    title: "Studio Platalea Stylescapes",
-    project: "Studio Project",
-    url: "studioPlataleaStylescapes",
+    title: "Personal Literature Research on Cognitive Disability",
+    project: "Research",
+    url: "personalLiteratureResearchonCognitiveDisability",
     process: [
       {
         content: [
