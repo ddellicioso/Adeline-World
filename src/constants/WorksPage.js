@@ -69,6 +69,8 @@ import PersonalLiteratureStudyCognitive from "../assets/pdf/BarrierstoDigitalAcc
 // Double Diamond //
 import DoubleDiamondProjectKrom from "../assets/pdf/DoubleDiamondProjectKrom.pdf"
 
+// Group Dyslexia Research //
+import GroupDyslexiaResearch from "../assets/pdf/DyslexiaResearch.pdf"
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -437,7 +439,8 @@ export const WorksList = [
     ],
     id: "1",
     title: "Personal Literature Research on Cognitive Disability",
-    project: "Research",
+    project: "Accessibility Project",
+    client: "Studio Krom",
     url: "personalLiteratureResearchonCognitiveDisability",
     process: [
       {
@@ -478,6 +481,37 @@ export const WorksList = [
             This method guides us from problem identification and solution delivery. Moreover, this 
             method aligns well with CMD workflows which I implemented in the document.`,
             document: [DoubleDiamondProjectKrom]
+          }
+        ]
+      }
+    ]
+  },
+
+  // Group Literature Research on Dyslexia //
+  {
+    outcomes: [`LearningOutcomeFour`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3" },
+      { outcomeNum: "4", value: true},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Group Literature Research on Dyslexia",
+    project: "Accessibility Project",
+    client: "Studio Krom",
+    url: "groupResearchonDyslexia",
+    process: [
+      {
+        content: [
+          {
+            text: `After discussing that we want to focus on dyslexia, we jumped straight 
+            in literature research. I would love to get in touch with our stakeholders 
+            (people who has dyslexia) to interview them, but they are hard to find and we 
+            do not have much time in our hands so I decided to focus on what we can get from
+             the internet.`,
+            document: [GroupDyslexiaResearch]
           }
         ]
       }
