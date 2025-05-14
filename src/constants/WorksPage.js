@@ -66,6 +66,8 @@ import studioPlataleaGeometryStyle from "../assets/worksPhotos/studioPlataleaGeo
 // Personal Literature Research //
 import PersonalLiteratureStudyCognitive from "../assets/pdf/BarrierstoDigitalAccessibilityforPersonswithCognitiveDisabilities.pdf"
 
+// Double Diamond //
+import DoubleDiamondProjectKrom from "../assets/pdf/DoubleDiamondProjectKrom.pdf"
 
 
 export const WorksList = [
@@ -447,6 +449,35 @@ export const WorksList = [
             I chose dyslexia because it's one of the common disability and I feel like majority of 
             people doesn't take it seriously, so I want to raise awareness about this disability.`,
             document: [PersonalLiteratureStudyCognitive]
+          }
+        ]
+      }
+    ]
+  },
+
+  // -------------- Double Diamond Method --------------- //
+  {
+    outcomes: [`LearningOutcomeFour`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3" },
+      { outcomeNum: "4", value: true},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Double Diamond Method",
+    project: "Accessibility Project",
+    client: "Studio Krom",
+    url: "doubleDiamondMethod",
+    process: [
+      {
+        content: [
+          {
+            text: `To help us structure the project nice and neatly, I used Double Diamond method. 
+            This method guides us from problem identification and solution delivery. Moreover, this 
+            method aligns well with CMD workflows which I implemented in the document.`,
+            document: [DoubleDiamondProjectKrom]
           }
         ]
       }
