@@ -488,6 +488,14 @@ export const WorksList = [
             This method guides us from problem identification and solution delivery. Moreover, this 
             method aligns well with CMD workflows which I implemented in the document.`,
             document: [DoubleDiamondProjectKrom]
+          },
+          {
+            title: `What I learned`,
+            text: `Using the double diamond method helped me understand how to approach a design 
+            challenge step by step while staying focused on the user. Overall, I learned how a structured 
+            design process like the double diamond helps balance creativity with critical thinking. 
+            It gave me more confidence in handling complex topics like cognitive accessibility, and helped 
+            me create solutions that are both thoughtful and user focused.`
           }
         ]
       }
