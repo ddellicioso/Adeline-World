@@ -445,7 +445,7 @@ export const WorksList = [
       { outcomeNum: "5"},
     ],
     id: "1",
-    title: "Personal Literature Research on Cognitive Disability",
+    title: "Literature Research on Cognitive Disability",
     project: "Accessibility Project",
     client: "Studio Krom",
     url: "personalLiteratureResearchonCognitiveDisability",
