@@ -605,6 +605,11 @@ export const WorksList = [
             people liked the design and said that it's futuristic, which what I wanted.`
           },
           {
+            feedbackTitle: `Feedback from client`,
+            feedback: `	Our client specifically liked the scrambled letters for the background and said that we could be 
+            potentially used as a landing page or just advertising the website/game.`
+          },
+          {
             text: `Below is the final poster, I contributed on adding random letters and brainstormed on the contents.`,
             image: [DyslexiaPosterFinal]
           },
