@@ -320,10 +320,15 @@ export const WorksList = [
         content: [
           {
             title: `Context`,
-            text: `We each made mood boards of what we think Studio Platalea ‘s style could be. 
+            content:
+            [
+              {
+                text: `We each made mood boards of what we think Studio Platalea ‘s style could be. 
             Before started in working on the individual mood board, we discussed about which clients we want to work with; 
             we chose Maikel and Petra inc. as our first choice because the project sounds cool, and we already have an idea 
             what we can do for it. The Night of The Nerds are our second choice as their theme of project are also interesting. `
+              }
+            ]
           },
           {
             text: `Since both of the clients are somewhat kind of technology-ish, I had an idea of using a lot of futuristic/cyberpunk
@@ -491,11 +496,16 @@ export const WorksList = [
           },
           {
             title: `What I learned`,
-            text: `Using the double diamond method helped me understand how to approach a design 
+            content: [
+              {
+                text: `Using the double diamond method helped me understand how to approach a design 
             challenge step by step while staying focused on the user. Overall, I learned how a structured 
             design process like the double diamond helps balance creativity with critical thinking. 
             It gave me more confidence in handling complex topics like cognitive accessibility, and helped 
             me create solutions that are both thoughtful and user focused.`
+              }
+            ]
+            
           }
         ]
       }
@@ -553,9 +563,13 @@ export const WorksList = [
         content: [
           {
             title:`Context`,
-            text: `For our first showcase, we were told to make a minimum of A2 format poster 
+            content: [
+              {
+                text: `For our first showcase, we were told to make a minimum of A2 format poster 
             that represent our concept and idea. My group decided to make the poster in Figma 
             where everyone feels comfortable using. `
+              }
+            ]
           },
           {
             text:`First step I took is to look for some inspirations from Pinterest and Google 
@@ -595,12 +609,16 @@ export const WorksList = [
           },
           {
             title: `What I learned`,
-            text: `	During this process, I learned that a strong idea needs clear visual communication. My first poster didn't 
+            content: [
+              {
+                text: `	During this process, I learned that a strong idea needs clear visual communication. My first poster didn't 
             represent dyslexia well instead it just looked like random letters. Through experimenting with Figma plugins and 
             visual effects, I improved the design and gave it more fitting, glitchy look.
             Feedback from teachers and peers helped me realize that a good design also needs context, it should communicate 
             the concept, not just look nice. I also learned the value of iteration, teamwork, and staying open to criticism 
             to improve the final result.`
+              }
+            ]
           }
         ]
       }
