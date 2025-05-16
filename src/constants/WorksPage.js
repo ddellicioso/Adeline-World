@@ -78,6 +78,7 @@ import DyslexiaPosterBad from "../assets/worksPhotos/DyslexiaBadPoster.png"
 import DyslexiaPosterGood from "../assets/worksPhotos/DyslexiaGoodPoster.png"
 import DyslexiaPosterFinal from "../assets/worksPhotos/DyslexiaFinalPoster.png"
 import FirstShowcaseFeedback from "../assets/worksPhotos/FirstShowcaseFeedback.png"
+import { context } from "@react-three/fiber";
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -617,6 +618,67 @@ export const WorksList = [
             Feedback from teachers and peers helped me realize that a good design also needs context, it should communicate 
             the concept, not just look nice. I also learned the value of iteration, teamwork, and staying open to criticism 
             to improve the final result.`
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  // ------------------- MoSCoW Method ------------------- //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3", value: true  },
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "MoSCoW Method",
+    project: "Accessibility Project",
+    client: "Studio Krom",
+    url: "MoscowMethod",
+    process: [
+      {
+        content: [
+          {
+            title:`Context`,
+            content: [
+              {
+                text: `Since our team had limited time and resources, we needed 
+                a clear structure to decide what to focus on first. I used MoSCoW 
+                method to help distinguish between core features (like simulating 
+                reading difficulty) and non essential features (like multiplayer or 
+                leaderboards). This helped keep the project manageable and aligned 
+                with our goal of raising awareness.`
+              }
+            ]
+          },
+          {
+            title: `How I did it`,
+            context: [
+              {
+                text: `	I facilitated a feature planning session with my group, where 
+                we listed all possible features we had brainstormed or researched. Then, 
+                based on our project goal, target audience, and time constraints, we 
+                discussed each feature's priority and sorted it into one of four categories. 
+                The final outcome was a MoSCoW diagram below that made it easy to communicate 
+                our scope to team members.`,
+                image: [MoscowDiagram]
+              }
+            ]
+          },
+          {
+            title: `What I learned`,
+            content: [
+              {
+                text: `Using the MoSCoW method taught me how to make design decisions 
+                based on user goals and project constraints, to communicate priorities clearly 
+                within a team, and setting realistic expectations while building the project. 
+                This method gave our project more focus and made sure we spent time on what mattered most.`
               }
             ]
           }
