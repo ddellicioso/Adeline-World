@@ -72,6 +72,13 @@ import DoubleDiamondProjectKrom from "../assets/pdf/DoubleDiamondProjectKrom.pdf
 // Group Dyslexia Research //
 import GroupDyslexiaResearch from "../assets/pdf/DyslexiaResearch.pdf"
 
+// First showcase Poster //
+import DyslexiaPosterInspiration from "../assets/worksPhotos/DyslexiaPoster-inspiration.png"
+import DyslexiaPosterBad from "../assets/worksPhotos/DyslexiaBadPoster.png"
+import DyslexiaPosterGood from "../assets/worksPhotos/DyslexiaGoodPoster.png"
+import DyslexiaPosterFinal from "../assets/worksPhotos/DyslexiaFinalPoster.png"
+import FirstShowcaseFeedback from "../assets/worksPhotos/FirstShowcaseFeedback.png"
+
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
   {
@@ -512,6 +519,80 @@ export const WorksList = [
             do not have much time in our hands so I decided to focus on what we can get from
              the internet.`,
             document: [GroupDyslexiaResearch]
+          }
+        ]
+      }
+    ]
+  },
+
+  // ------------------- First Showcase - Poster ------------------ //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3", value: true  },
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "First Showcase (Poster)",
+    project: "Accessibility Project",
+    client: "Studio Krom",
+    url: "FirstShowcase",
+    process: [
+      {
+        content: [
+          {
+            title:`Context`,
+            text: `For our first showcase, we were told to make a minimum of A2 format poster 
+            that represent our concept and idea. My group decided to make the poster in Figma 
+            where everyone feels comfortable using. `
+          },
+          {
+            text:`First step I took is to look for some inspirations from Pinterest and Google 
+            and shared it with my teammates in the Figma file. After that, I had an idea of 
+            recreating this image I found that I feel like it's represents dyslexia.`,
+            image: [DyslexiaPosterInspiration]
+          },
+          {
+            text:`I typed random alphabets individually and later used a randomizer plugin from 
+            Figma to randomize the order of the alphabets. But after implementing it, I don’t 
+            really see how dyslexia are represented in the poster and it just felt like random 
+            letters being put together not so nicely. `, 
+            image: [DyslexiaPosterBad]
+          },
+          {
+            text: `	Then I made a new poster after looking for more inspirations, the idea is the 
+            same, like random letters flying around and trying to make a word/sentence. I used glitchy 
+            effect from one of the plugins I found from Figma for the words and it makes it looks so 
+            much better. Since our website is designed to be in a PC/laptop so I used a laptop image in the poster.`,
+            image: [DyslexiaPosterGood]
+          },
+          {
+            feedbackTitle: `Feedback from teachers and peers`,
+            feedback: `	The poster suits better to be a game advertisement rather than being used as a showcase poster, 
+            because there's no information about the concept (like the teachers wants). Despite the minimal information, 
+            people liked the design and said that it's futuristic, which what I wanted.`
+          },
+          {
+            text: `Below is the final poster, I contributed on adding random letters and brainstormed on the contents.`,
+            image: [DyslexiaPosterFinal]
+          },
+          {
+            feedbackTitle: `Feedback during showcase`,
+            feedback: `Even though the showcase presentation ended up a little disappointing,  here are the feedbacks we 
+            collected during the showcase. The feedback are collected by Jerryl (my teammate) an d posted on our Discord channel.`,
+            image: [FirstShowcaseFeedback]
+          },
+          {
+            title: `What I learned`,
+            text: `	During this process, I learned that a strong idea needs clear visual communication. My first poster didn't 
+            represent dyslexia well instead it just looked like random letters. Through experimenting with Figma plugins and 
+            visual effects, I improved the design and gave it more fitting, glitchy look.
+            Feedback from teachers and peers helped me realize that a good design also needs context, it should communicate 
+            the concept, not just look nice. I also learned the value of iteration, teamwork, and staying open to criticism 
+            to improve the final result.`
           }
         ]
       }
