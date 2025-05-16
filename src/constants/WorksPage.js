@@ -78,7 +78,9 @@ import DyslexiaPosterBad from "../assets/worksPhotos/DyslexiaBadPoster.png"
 import DyslexiaPosterGood from "../assets/worksPhotos/DyslexiaGoodPoster.png"
 import DyslexiaPosterFinal from "../assets/worksPhotos/DyslexiaFinalPoster.png"
 import FirstShowcaseFeedback from "../assets/worksPhotos/FirstShowcaseFeedback.png"
-import { context } from "@react-three/fiber";
+
+// MOSCOW //
+import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -670,7 +672,7 @@ export const WorksList = [
           },
           {
             title: `How I did it`,
-            context: [
+            content: [
               {
                 text: `	I facilitated a feature planning session with my group, where 
                 we listed all possible features we had brainstormed or researched. Then, 
