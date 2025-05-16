@@ -538,6 +538,12 @@ export const WorksList = [
             do not have much time in our hands so I decided to focus on what we can get from
              the internet.`,
             document: [GroupDyslexiaResearch]
+          },
+          {
+            feedbackTitle: `Feedback from client`,
+            feedback: `During our client meeting where we showed our research to the client, 
+            they liked the idea of raising awareness by making a gamified website. The client 
+            really liked the research we did, and said that he would like to read the full document. `
           }
         ]
       }
