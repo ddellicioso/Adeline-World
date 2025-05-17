@@ -714,6 +714,9 @@ export const WorksList = [
             because my love for creating and designing media content.`, 
             images: [CareerDayPhoto],
             text: `Shout out to Chris for helping me took this amazing picture!`,
+            
+          },
+          {
             images: [CareerDayGameDesign]
           },
           {
