@@ -42,6 +42,12 @@ import inspirationPortfolioVideo from "../assets/worksPhotos/inspirationPortfoli
 import feedbackPortfolioMoodboardMaikel from "../assets/png/feedbackPortfolioMoodboardMaikel.png";
 import portfolioMoodboard from "../assets/png/portfolioMoodboard.png";
 
+// Portfolio Development //
+import ReusableComponent from "../assets/worksPhotos/ReusableComponent.png"
+import ExampleReusable from "../assets/worksPhotos/ExampleReusable.png"
+import MappingContent from "../assets/worksPhotos/MappingContent.png"
+import DataStored from "../assets/worksPhotos/DataStored.png"
+
 // The Art Department //
 import wacomTry from "../assets/worksPhotos/wacomTry.png";
 import arcadeGameTry from "../assets/worksPhotos/arcadeGameTry.png";
@@ -113,7 +119,6 @@ export const WorksList = [
     title: "Studio Platalea Brandguide",
     project: "Studio Project",
     duration: "3 weeks",
-    // coverImage: ,
     url: "studioPlataleaBrandguide",
     process: [
       {
@@ -206,9 +211,142 @@ export const WorksList = [
       }
     ]
   },
+  // ------------------------------- Portfolio Development -------------------------------- //
+  {
+    outcomes: [`LearningOutcomeTwo`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2", value: true },
+      { outcomeNum: "3" },
+      { outcomeNum: "4" },
+      { outcomeNum: "5" },
+    ],
+    id: "1",
+    title: "Personal Portfolio Development",
+    gitLink: `https://github.com/ddellicioso/Adeline-World`,
+    linkText: `GITHUB`,
+    url: "personalPortfolioDevelopment",
+    process:[
+      {
+        title: `Why React.js`,
+        content: [
+          {
+            text: `I wanted to start preparing for my internship and I thought maybe it’s better 
+            if I can make a website that showcase my skills, so why don’t I make a professional 
+            portfolio website that I can use for internship later? I want to showcase both my 
+            development and design skills with this website using ReactJS. `,
+            text: `I’m starting to get sick of plain HTML CSS where I need to copy paste everything 
+            to other pages if I change something in the document, so I figured out that React 
+            could help me to overcome this sickness by making my website more organized.`
+          }
+        ]
+      },
+      {
+        title: `Why GitHub`,
+        content: [
+          {
+            text: `I chose to host my repository on GitHub instead of GitLab because I use Vercel 
+            to deploy my website. While I initially tried to connect my GitLab account to Vercel, 
+            I encountered login issues with my school account even though I used the correct email 
+            and password. As a result, I switched to GitHub, which integrates smoothly with Vercel.`
+          }
+        ]
+      },
+      {
+        title: `Learning Process`,
+        content: [
+          {
+            text: `I began learning React.js at the start of this semester by following several 
+            YouTube tutorials to set up my project. I gained hands-on experience through trial 
+            and error by experimenting with the code provided. This project also marked my first 
+            time using Tailwind CSS so I frequently referred to the official documentation to 
+            learn the syntax.`,
+            links: [
+              {
+                url: `https://youtu.be/SqcY0GlETPk?si=eJrzr0j62xrV_NJv`,
+                text: `React.js typescript YouTube Tutorial`
+              },
+              {
+                url: `https://youtu.be/B91wc5dCEBA?si=DTbcsKEXs3IpiEr_`,
+                text: `React.js javascript Youtube Tutorial`,
+              },
+              {
+                url: `https://tailwindcss.com/docs/installation/using-vite`,
+                text: `Tailwind CSS v.4.1 Documentation`
+              }
+            ]
+          }
+        ]
+      },
+      {
+        title: `Tailwind CSS Config & Customization`,
+        content: [
+          {
+            text: `	Below is the link to the file that configures how Tailwind CSS is used 
+            in the project. It includes custom utilities and plugins where I defined my own 
+            utility classes.`,
+            links: [
+              {
+                url: `https://github.com/ddellicioso/Adeline-World/blob/main/tailwind.config.js`,
+                text: `tailwind.config.js on GitHub`
+              }
+            ]
+          }
+        ]
+      },
+      {
+        title: `Reusable Components`,
+        content: [
+          {
+            text: `My favorite part of React.js is that I could make reusable components like, 
+            Header, Footer, Buttons, and Containers, and use them by rendering the components 
+            using one simple tag instead of copy-pasteing lines of code every time I need the 
+            component. This part efficiently helped me built my website nicely and quick. `,
+            images: [ReusableComponent, ExampleReusable],
+
+          }
+        ]
+      },
+      {
+        title: `Data Structuring in Constants`,
+        content: [
+          {
+            text: `	To improve readability and maintainability, I store all content such as 
+            media and text in separate constant file, structured as JavaScript objects. This 
+            makes it easier to map the data into components and avoids hardcoding. This approach 
+            keeps the code clean, scalable, and easier to update, while also reflecting a 
+            more professional and modular development style. `,
+            images: [DataStored, MappingContent],
+            links: [
+              {
+                url: `https://github.com/ddellicioso/Adeline-World/blob/main/src/constants/WorksPage.js`,
+                text: `Constants File Code (GitHub)`
+              },
+              {
+                url: `https://github.com/ddellicioso/Adeline-World/blob/main/src/components/WorkProcess.jsx`,
+                text: `Mapping and Displaying Data Code (GitHub)`
+              }
+            ]
+          }
+        ]
+      },
+      {
+        title: `What I learned`,
+        content: [
+          {
+            text:   `Through this project, I learned how to build a portfolio using React.js 
+            and Tailwind CSS. I explored reusable components to write cleaner, more efficient 
+            code and used constants to separate content from logic, making the project easier 
+            to manage and scale. It was also my first time using Tailwind CSS, where I learned 
+            to customize styles and create utility classes. Finally, I deployed the website using 
+            GitHub and Vercel, learning how to choose tools that work well together.`
+          }
+        ]
+      }
+    ]
+  },
 
   // ------------------------------- The Art Department ---------------------------------- //
-
   {
     outcomes: [`LearningOutcomeFive`],
     fittingOutcomes: [
@@ -217,12 +355,6 @@ export const WorksList = [
       { outcomeNum: "3" },
       { outcomeNum: "4"},
       { outcomeNum: "5", value: true },
-    ],
-    outcomeDesc: [
-      {
-        title: "LO 5 - Personal Leadership",
-        desc: "Analyse and reflecting on my performance during presenting and take into account for personal improvement.",
-      }
     ],
     id: "1",
     title: "The Art Department",
