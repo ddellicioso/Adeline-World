@@ -620,7 +620,7 @@ export const WorksList = [
 
   // ------------------- MoSCoW Method ------------------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeFour`],
     fittingOutcomes: [
       { outcomeNum: "1" },
       { outcomeNum: "2" },
