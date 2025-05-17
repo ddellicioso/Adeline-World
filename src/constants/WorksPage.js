@@ -222,8 +222,6 @@ export const WorksList = [
     id: "1",
     title: "The Art Department",
     project: "Personal Leadership",
-    // client: "Mach8 (Livewall)",
-    // coverImage: clientMeetingCover,
     url: "theArtDepartment",
     process: [
       {
@@ -247,7 +245,6 @@ export const WorksList = [
             images: [cuteStuffs],
             video: [videoSculpting]
           }
-
         ]
       }
     ]
@@ -272,8 +269,6 @@ export const WorksList = [
     id: "1",
     title: "Studio Platalea Team Charter",
     project: "Studio Project",
-    // client: "Mach8 (Livewall)",
-    // coverImage: clientMeetingCover,
     url: "studioPlataleaTeamCharter",
     process: [
       {
@@ -282,17 +277,8 @@ export const WorksList = [
             text: `In the beginning of the project, when me and my team members just got together, we get to know each other 
             by writing our strengths and weaknesses in the team charter, and align with each other’s values, also setting the 
             norms so we can work nicely and professionally throughout the group projects. `,
-
-          },
-          
-        ]
-      },
-      {
-        title: `Team Charter`,
-        content: [
-          {
-            document: [studioPlataleaTeamCharter]
-          },
+            links: [studioPlataleaTeamCharter]
+          }, 
         ]
       }
     ]
@@ -321,18 +307,13 @@ export const WorksList = [
     url: "studioPlataleaMoodboard",
     process: [
       {
+        title: `Context`,
         content: [
           {
-            title: `Context`,
-            content:
-            [
-              {
-                text: `We each made mood boards of what we think Studio Platalea ‘s style could be. 
-            Before started in working on the individual mood board, we discussed about which clients we want to work with; 
-            we chose Maikel and Petra inc. as our first choice because the project sounds cool, and we already have an idea 
-            what we can do for it. The Night of The Nerds are our second choice as their theme of project are also interesting. `
-              }
-            ]
+            text: `We each made mood boards of what we think Studio Platalea ‘s style could be. 
+          Before started in working on the individual mood board, we discussed about which clients we want to work with; 
+          we chose Maikel and Petra inc. as our first choice because the project sounds cool, and we already have an idea 
+          what we can do for it. The Night of The Nerds are our second choice as their theme of project are also interesting. `
           },
           {
             text: `Since both of the clients are somewhat kind of technology-ish, I had an idea of using a lot of futuristic/cyberpunk
@@ -498,18 +479,18 @@ export const WorksList = [
             method aligns well with CMD workflows which I implemented in the document.`,
             document: [DoubleDiamondProjectKrom]
           },
+          
+        ]
+      },
+      {
+        title: `What I learned`,
+        content: [
           {
-            title: `What I learned`,
-            content: [
-              {
-                text: `Using the double diamond method helped me understand how to approach a design 
+            text: `Using the double diamond method helped me understand how to approach a design 
             challenge step by step while staying focused on the user. Overall, I learned how a structured 
             design process like the double diamond helps balance creativity with critical thinking. 
             It gave me more confidence in handling complex topics like cognitive accessibility, and helped 
             me create solutions that are both thoughtful and user focused.`
-              }
-            ]
-            
           }
         ]
       }
@@ -570,16 +551,12 @@ export const WorksList = [
     url: "FirstShowcase",
     process: [
       {
+        title:`Context`,
         content: [
           {
-            title:`Context`,
-            content: [
-              {
-                text: `For our first showcase, we were told to make a minimum of A2 format poster 
+            text: `For our first showcase, we were told to make a minimum of A2 format poster 
             that represent our concept and idea. My group decided to make the poster in Figma 
             where everyone feels comfortable using. `
-              }
-            ]
           },
           {
             text:`First step I took is to look for some inspirations from Pinterest and Google 
@@ -622,18 +599,19 @@ export const WorksList = [
             collected during the showcase. The feedback are collected by Jerryl (my teammate) an d posted on our Discord channel.`,
             image: [FirstShowcaseFeedback]
           },
+          
+        ]
+      },
+      {
+        title: `What I learned`,
+        content: [
           {
-            title: `What I learned`,
-            content: [
-              {
-                text: `	During this process, I learned that a strong idea needs clear visual communication. My first poster didn't 
+            text: `	During this process, I learned that a strong idea needs clear visual communication. My first poster didn't 
             represent dyslexia well instead it just looked like random letters. Through experimenting with Figma plugins and 
             visual effects, I improved the design and gave it more fitting, glitchy look.
             Feedback from teachers and peers helped me realize that a good design also needs context, it should communicate 
             the concept, not just look nice. I also learned the value of iteration, teamwork, and staying open to criticism 
             to improve the final result.`
-              }
-            ]
           }
         ]
       }
@@ -657,44 +635,40 @@ export const WorksList = [
     url: "MoscowMethod",
     process: [
       {
+        title:`Context`,
         content: [
           {
-            title:`Context`,
-            content: [
-              {
-                text: `Since our team had limited time and resources, we needed 
-                a clear structure to decide what to focus on first. I used MoSCoW 
-                method to help distinguish between core features (like simulating 
-                reading difficulty) and non essential features (like multiplayer or 
-                leaderboards). This helped keep the project manageable and aligned 
-                with our goal of raising awareness.`
-              }
-            ]
+            text: `Since our team had limited time and resources, we needed 
+            a clear structure to decide what to focus on first. I used MoSCoW 
+            method to help distinguish between core features (like simulating 
+            reading difficulty) and non essential features (like multiplayer or 
+            leaderboards). This helped keep the project manageable and aligned 
+            with our goal of raising awareness.`
           },
+        ]
+      },
+      {
+        title: `How I did it`,
+        content: [
           {
-            title: `How I did it`,
-            content: [
-              {
-                text: `	I facilitated a feature planning session with my group, where 
-                we listed all possible features we had brainstormed or researched. Then, 
-                based on our project goal, target audience, and time constraints, we 
-                discussed each feature's priority and sorted it into one of four categories. 
-                The final outcome was a MoSCoW diagram below that made it easy to communicate 
-                our scope to team members.`,
-                image: [MoscowDiagram]
-              }
-            ]
-          },
+            text: `	I facilitated a feature planning session with my group, where 
+            we listed all possible features we had brainstormed or researched. Then, 
+            based on our project goal, target audience, and time constraints, we 
+            discussed each feature's priority and sorted it into one of four categories. 
+            The final outcome was a MoSCoW diagram below that made it easy to communicate 
+            our scope to team members.`,
+            image: [MoscowDiagram]
+          }
+        ]
+      },
+      {
+        title: `What I learned`,
+        content: [
           {
-            title: `What I learned`,
-            content: [
-              {
-                text: `Using the MoSCoW method taught me how to make design decisions 
-                based on user goals and project constraints, to communicate priorities clearly 
-                within a team, and setting realistic expectations while building the project. 
-                This method gave our project more focus and made sure we spent time on what mattered most.`
-              }
-            ]
+            text: `Using the MoSCoW method taught me how to make design decisions 
+            based on user goals and project constraints, to communicate priorities clearly 
+            within a team, and setting realistic expectations while building the project. 
+            This method gave our project more focus and made sure we spent time on what mattered most.`
           }
         ]
       }
