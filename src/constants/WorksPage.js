@@ -82,6 +82,11 @@ import FirstShowcaseFeedback from "../assets/worksPhotos/FirstShowcaseFeedback.p
 // MOSCOW //
 import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 
+// Career Day //
+import CareerDayPhoto from "../assets/worksPhotos/careerDayPhoto.jpg"
+import CareerDayGameDesign from "../assets/worksPhotos/CareerDayGameDesignPhoto.jpg"
+
+
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
   {
@@ -669,6 +674,60 @@ export const WorksList = [
             based on user goals and project constraints, to communicate priorities clearly 
             within a team, and setting realistic expectations while building the project. 
             This method gave our project more focus and made sure we spent time on what mattered most.`
+          }
+        ]
+      }
+    ]
+  },
+
+  // ------------------ Career Day -------------------- //
+  {
+    outcomes: [`LearningOutcomeFive`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3"},
+      { outcomeNum: "4"},
+      { outcomeNum: "5", value: true  },
+    ],
+    id: "1",
+    title: "Career Day",
+    url: "careerDay",
+    process: [
+      {
+        content:
+        [
+          {
+            text: `I visited the Fontys ICT career day at TQ on 17th April from 1PM 
+            to 4PM. I mainly visited specializations and minors/advanced stands since 
+            I needed to choose with path I'm going to take for the next semesters. I 
+            didn't visit the companies floor because I was focused on choosing which 
+            specialization to choose. `
+          },
+          {
+            text: `I'm only interested in media related studies so that's what I mainly 
+            went to, like Game Design, Front-end Development, Media Creation, and Mobile 
+            App Development. I asked the teachers various questions like the job opportunities, 
+            what will I learn if I join the study, and details about projects that they 
+            have. Talking to these stands really helped me choose which study suits me 
+            and my passion as a media student, so I ended up signing up for media creation 
+            because my love for creating and designing media content.`, 
+            images: [CareerDayPhoto],
+            text: `Shout out to Chris for helping me took this amazing picture!`,
+            images: [CareerDayGameDesign]
+          },
+          {
+            text: `I also visited some advanced studies like Human Centered Design, and 
+            Immersive Experiences. I like the idea of Human Centered Design because 
+            that's what I've been learning in Media Design and learning this study is 
+            very versatile because I could implement it to almost every study. Immersive 
+            Experience is also pretty versatile, and with growing technology, I feel like
+            Immersive Experience has bright future.`
+          },
+          {
+            text: `Overall, I've been joining career day since I was semester 1 and it's 
+            always been very informative event to attend. In my next semester, I should 
+            focus on talking to companies during the event so I can plant an internship.`
           }
         ]
       }
