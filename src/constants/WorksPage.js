@@ -45,7 +45,7 @@ import portfolioMoodboard from "../assets/png/portfolioMoodboard.png";
 // Portfolio Development //
 import ReusableComponent from "../assets/worksPhotos/ReusableComponent.png"
 import ExampleReusable from "../assets/worksPhotos/ExampleReusable.png"
-import MappingContent from "../assets/worksPhotos/MappingContent.png"
+import MappingContent from "../assets/worksPhotos/MappingContents.png"
 import DataStored from "../assets/worksPhotos/DataStored.png"
 
 // The Art Department //
