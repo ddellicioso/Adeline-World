@@ -284,14 +284,15 @@ export const WorksList = [
             norms so we can work nicely and professionally throughout the group projects. `,
 
           },
+          
+        ]
+      },
+      {
+        title: `Team Charter`,
+        content: [
           {
-            title: `Team Charter`,
-            content: [
-              {
-                document: [studioPlataleaTeamCharter]
-              },
-            ]
-          }
+            document: [studioPlataleaTeamCharter]
+          },
         ]
       }
     ]
