@@ -277,7 +277,7 @@ export const WorksList = [
             text: `In the beginning of the project, when me and my team members just got together, we get to know each other 
             by writing our strengths and weaknesses in the team charter, and align with each other’s values, also setting the 
             norms so we can work nicely and professionally throughout the group projects. `,
-            links: [studioPlataleaTeamCharter]
+            document: [studioPlataleaTeamCharter]
           }, 
         ]
       }
@@ -562,21 +562,21 @@ export const WorksList = [
             text:`First step I took is to look for some inspirations from Pinterest and Google 
             and shared it with my teammates in the Figma file. After that, I had an idea of 
             recreating this image I found that I feel like it's represents dyslexia.`,
-            image: [DyslexiaPosterInspiration]
+            images: [DyslexiaPosterInspiration]
           },
           {
             text:`I typed random alphabets individually and later used a randomizer plugin from 
             Figma to randomize the order of the alphabets. But after implementing it, I don’t 
             really see how dyslexia are represented in the poster and it just felt like random 
             letters being put together not so nicely. `, 
-            image: [DyslexiaPosterBad]
+            images: [DyslexiaPosterBad]
           },
           {
             text: `	Then I made a new poster after looking for more inspirations, the idea is the 
             same, like random letters flying around and trying to make a word/sentence. I used glitchy 
             effect from one of the plugins I found from Figma for the words and it makes it looks so 
             much better. Since our website is designed to be in a PC/laptop so I used a laptop image in the poster.`,
-            image: [DyslexiaPosterGood]
+            images: [DyslexiaPosterGood]
           },
           {
             feedbackTitle: `Feedback from teachers and peers`,
@@ -591,13 +591,13 @@ export const WorksList = [
           },
           {
             text: `Below is the final poster, I contributed on adding random letters and brainstormed on the contents.`,
-            image: [DyslexiaPosterFinal]
+            images: [DyslexiaPosterFinal]
           },
           {
             feedbackTitle: `Feedback during showcase`,
             feedback: `Even though the showcase presentation ended up a little disappointing,  here are the feedbacks we 
             collected during the showcase. The feedback are collected by Jerryl (my teammate) an d posted on our Discord channel.`,
-            image: [FirstShowcaseFeedback]
+            images: [FirstShowcaseFeedback]
           },
           
         ]
@@ -624,8 +624,8 @@ export const WorksList = [
     fittingOutcomes: [
       { outcomeNum: "1" },
       { outcomeNum: "2" },
-      { outcomeNum: "3", value: true  },
-      { outcomeNum: "4"},
+      { outcomeNum: "3"  },
+      { outcomeNum: "4", value: true},
       { outcomeNum: "5"},
     ],
     id: "1",
@@ -657,7 +657,7 @@ export const WorksList = [
             discussed each feature's priority and sorted it into one of four categories. 
             The final outcome was a MoSCoW diagram below that made it easy to communicate 
             our scope to team members.`,
-            image: [MoscowDiagram]
+            images: [MoscowDiagram]
           }
         ]
       },
