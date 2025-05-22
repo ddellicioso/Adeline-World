@@ -42,6 +42,12 @@ import inspirationPortfolioVideo from "../assets/worksPhotos/inspirationPortfoli
 import feedbackPortfolioMoodboardMaikel from "../assets/png/feedbackPortfolioMoodboardMaikel.png";
 import portfolioMoodboard from "../assets/png/portfolioMoodboard.png";
 
+// Portfolio Prototype //
+import SketchPrototype from "../assets/worksPhotos/SketchPrototype.png"
+import LowFidelityPortfolio from "../assets/worksPhotos/LowFidelityPortfolio.png"
+import MidFidelityPortfolio from "../assets/worksPhotos/MidFidelityPortfolio.png"
+import ChrisPrototypeFeedback from "../assets/worksPhotos/ChrisPrototypeFeedback.png"
+
 // Portfolio Development //
 import ReusableComponent from "../assets/worksPhotos/ReusableComponent.png"
 import ExampleReusable from "../assets/worksPhotos/ExampleReusable.png"
@@ -217,7 +223,85 @@ export const WorksList = [
       }
     ]
   },
-  // ------------------------------- Portfolio Development -------------------------------- //
+
+  // -------------------------------------------- Portfolio Prototype -------------------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeThree`,`LearningOutcomeOne`],
+    fittingOutcomes: [
+      { outcomeNum: "1", value: true   },
+      { outcomeNum: "2" },
+      { outcomeNum: "3", value: true  },
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Portfolio Prototype",
+    project: "Personal Portfolio",
+    url: "PortfolioPrototyping",
+    process: [
+      {
+        content: [
+          {
+            text: `After knowing which direction I want my portfolio to be, I went to sketch a 
+            asic layout of the website. I want the layout to be simple and minimalistic, since 
+            I want to make 3D stuffs for landing page. `,
+            images: [SketchPrototype]
+          }
+        ]
+      },
+      {
+        title: `Low Fidelity Prototype`,
+        content: [
+          {
+            text:`I made a low fidelity prototype based on the sketch, I had two different 
+            layouts of the content so I could do some A/B testing. `,
+            images: [LowFidelityPortfolio]
+          },
+          {
+            feedbackTitle: `A/B Testing Feedbacks`,
+            feedback: `I made a low fidelity prototype based on the sketch, I had two 
+            different layouts of the content so I could do some A/B testing. `,
+            list: [`A lot of people liked the big image ones`, `The small image leaves too much space/blank space`, 
+              `Loved the learning outcome checklist`, `The "aside section v1" of the description is user friendly`,
+              `The "aside section v2" feels more minimalistic and simple and also user friendly`],
+            text: `	From the testing, I will use version 1 Learning Outcome and version 2 Content page.`
+          }
+        ]
+      },
+      {
+        title: `Middle Fidelity Prototype`,
+        content: [
+          {
+            text: `	So I based on the result of the A/B testing, I created the middle 
+            fidelity of the prototype and made them interactive, so I can show it to some teachers. `,
+            images: [MidFidelityPortfolio]
+          },
+          {
+            feedbackTitle: `Feedback`,
+            feedback: `	I went to Chris and did a user testing, I made him try the prototype.`,
+            images: [ChrisPrototypeFeedback]
+          },
+          {
+            text: `	I decided to not make a high fidelity as I already know what to not 
+            put in the website, and to save time for developing/coding. `
+          }
+        ]
+      },
+      {
+        title: `What I learned`,
+        content: [
+          {
+            text: `	Throughout this process, I learned the of user feedback and iterative design. 
+            By starting with low fidelity prototypes and conducting A/B testing, I was able to validate 
+            design decisions early. Overall, involving users early led to better design decisions 
+            and a more user friendly prototype.`
+          }
+        ]
+      }
+    ]
+  },
+
+  // --------------------------------------------- Portfolio Development ------------------------------------ //
   {
     outcomes: [`LearningOutcomeTwo`],
     fittingOutcomes: [
@@ -229,6 +313,7 @@ export const WorksList = [
     ],
     id: "1",
     title: "Personal Portfolio Development",
+    project: "Personal Portfolio",
     gitLink: `https://github.com/ddellicioso/Adeline-World`,
     linkText: `GITHUB`,
     url: "personalPortfolioDevelopment",
@@ -946,7 +1031,20 @@ export const WorksList = [
             ]
           }
         ]
+      },
+      {
+        title: `What I learned`,
+        content: [
+          {
+            text: `I learned how to build a basic web app using Express.js 
+            and SQLite. By creating a custom Diary blog, I gained better 
+            understanding of routing, handling POST request, and using Bootstrap 
+            to style my app. Adding features like a delete button helped me 
+            practice more advanced Express.js functionality.`
+          }
+        ]
       }
     ]
-  }
+  },
+  
 ];
