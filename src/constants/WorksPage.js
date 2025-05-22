@@ -93,7 +93,7 @@ import CareerDayPhoto from "../assets/worksPhotos/careerDayPhoto.jpg"
 import CareerDayGameDesign from "../assets/worksPhotos/CareerDayGameDesignPhoto.jpg"
 
 // Express.js Blog Application //
-import InitialBlog from "../assets/worksPhotos/InitialBlog.png"
+import InitialBlog from "../assets/worksPhotos/InitialBlog2.png"
 import OverrideSetUp from "../assets/worksPhotos/OverrideSetUp.png"
 import OverrideCodeSnippet from "../assets/worksPhotos/OverrideCodeSnippet.png"
 import BootstrapCode from "../assets/worksPhotos/BootstrapCode.png"
