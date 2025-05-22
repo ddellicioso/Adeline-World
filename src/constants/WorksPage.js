@@ -92,6 +92,12 @@ import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 import CareerDayPhoto from "../assets/worksPhotos/careerDayPhoto.jpg"
 import CareerDayGameDesign from "../assets/worksPhotos/CareerDayGameDesignPhoto.jpg"
 
+// Express.js Blog Application //
+import InitialBlog from "../assets/worksPhotos/InitialBlog.png"
+import OverrideSetUp from "../assets/worksPhotos/OverrideSetUp.png"
+import OverrideCodeSnippet from "../assets/worksPhotos/OverrideCodeSnippet.png"
+import BootstrapCode from "../assets/worksPhotos/BootstrapCode.png"
+import FinalBlog from "../assets/worksPhotos/FinalBlog.png"
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -863,6 +869,81 @@ export const WorksList = [
             text: `Overall, I've been joining career day since I was semester 1 and it's 
             always been very informative event to attend. In my next semester, I should 
             focus on talking to companies during the event so I can plant an internship.`
+          }
+        ]
+      }
+    ]
+  },
+  // --------------------------------------------- Express.js Blog ---------------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeTwo`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2", value: true   },
+      { outcomeNum: "3"},
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Express.js Blog Application",
+    url: "ExpressJsBlog",
+    process: [
+      {
+        title: `Introduction`,
+        content: [
+          {
+            text: `I joined Amer's lecture about Express.js and I learned how to make my 
+            very first Express.js application with SQLite as a database.`
+          }
+        ]
+      },
+      {
+        title: `Building the Application`,
+        content: [
+          {
+            text: `For setting up the project and installing dependencies, I followed the 
+            tutorial given by Amer in the announcement. To help me understand more how 
+            Express.js works, I decided to make a different kind of blog, which is a Diary blog. 
+            Below is the initial look after I followed the tutorial step by step`,
+            images: [InitialBlog]
+          },
+          {
+            text: `To make it even more interactive, I added delete button by overwriting the POST request.`,
+            images: [OverrideSetUp, OverrideCodeSnippet],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/express.js-blog/-/blob/main/app.js?ref_type=heads`,
+                text: `app.js in GitLab (Set-up)`
+              },
+              {
+                url: `https://git.fhict.nl/I522224/express.js-blog/-/blob/main/package.json?ref_type=heads`,
+                text: `package.json in GitLab (dependencies)`
+              },
+              {
+                url: `https://git.fhict.nl/I522224/express.js-blog/-/blob/main/routes/blogRoutes.js?ref_type=heads`,
+                text: `blogRoutes.js in GitLab (routing code)`
+              }
+            ]
+          },
+          {
+            text: `I used Bootstrap to put some colors and fix some layout.`,
+            images: [BootstrapCode],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/express.js-blog/-/blob/main/views/index.ejs?ref_type=heads`,
+                text: `index.ejs in Gitlab`
+              }
+            ]
+          },
+          {
+            text: `And below is the final loook of my Diary Blog`,
+            images: [FinalBlog],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/express.js-blog`,
+                text: `GitLab Repository Express.js Blog Application`
+              }
+            ]
           }
         ]
       }
