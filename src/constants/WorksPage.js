@@ -97,7 +97,7 @@ import InitialBlog from "../assets/worksPhotos/InitialBlog2.png"
 import OverrideSetUp from "../assets/worksPhotos/OverrideSetUp.png"
 import OverrideCodeSnippet from "../assets/worksPhotos/OverrideCodeSnippet.png"
 import BootstrapCode from "../assets/worksPhotos/BootstrapCode.png"
-import FinalBlog from "../assets/worksPhotos/FinalBlog.png"
+import FinalBlog from "../assets/worksPhotos/FinalBlog2.png"
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
