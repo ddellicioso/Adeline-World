@@ -82,7 +82,7 @@ import PersonalLiteratureStudyCognitive from "../assets/pdf/BarrierstoDigitalAcc
 import DoubleDiamondProjectKrom from "../assets/pdf/DoubleDiamondProjectKrom.pdf"
 
 // Group Dyslexia Research //
-import GroupDyslexiaResearch from "../assets/pdf/DyslexiaResearch.pdf"
+import GroupDyslexiaResearch from "../assets/pdf/DyslexiaResearch-fixed.pdf"
 
 // First showcase Poster //
 import DyslexiaPosterInspiration from "../assets/worksPhotos/DyslexiaPoster-inspiration.png"
