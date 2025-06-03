@@ -455,23 +455,41 @@ export const WorksList = [
       {
         content: [
           {
-            text: `I visited The Art Department event that Fontys sponsored us. When our teacher 
-            announced that we will have a small “field trip” to this event, I checked their website; 
-            though it didn’t give me enough information, I’m pretty interested in its animation stuffs. `
+            text: `Before attending The Art Department event sponsored by Fontys, I wasn’t 
+            entirely sure what to expect. The website provided only a glimpse, hinting at 
+            animation and creative showcases, but it didn’t fully prepared me for the 
+            immersive experience ahead. Since I have interest in animation and 3D, I hoped 
+            to see something that would spark new ideas or expose me to techniques I hadn’t 
+            considered. However, I didn’t set any specific expectations, and I wanted to 
+            walk in with an open mind.`
           },
           {
-            text: `I didn’t have any expectations on what’s going to be there, but the moment I walked 
-            into the area, I got very excited because there were a lot of art and animations stuffs. 
-            Me and one of my teammates, Alexa, we decided to visit this one stand from Sound & Vision, 
-            we tried to draw on their Wacom tablet. We also tried their arcade machine, and it was so much fun. `,
+            text: `The moment I stepped into the event space, I was completely drawn in, 
+            the atmosphere filled with creativity, artworks, animation displays, and 
+            interactive filled every corner. Alexa, one of my teammates, and I decided 
+            to explore a stand by Sound & Vision, where we experimented with their Wacom 
+            tablet. It was fascinating to feel the precision and fluidity of digital 
+            drawing on such professional equipment. We also couldn’t resist trying their 
+            arcade machine, adding a playful touch to the experience.`,
             images: [wacomTry, arcadeGameTry]
           },
           {
-            text: `After that I went to the booths and stands hall and I spent some money to buy cute stuffs, 
-            we also participated in one of the sculpting workshops. I’ve always wanted to try to sculpt and 
-            I’m very happy to be able to fulfill one of my-somewhat-dream. `,
+            text: `Later, I wandered through the booths and spent some money on adorable 
+            art pieces, letting myself indulge in the work of talented creators. One of 
+            the biggest highlights for me was participating in a sculpting workshop. I’ve 
+            always admired sculpting and dreamed of giving it a try. Being able to shape 
+            something with my hands was truly fulfilling, it felt like I had unlocked 
+            a new artistic skill I never knew I needed.`,
             images: [cuteStuffs],
             video: [videoSculpting]
+          },
+          {
+            text: `Although I had to leave earlier due to another plan, this event left 
+            a lasting impression. It reinforced my passion for creative exploration and 
+            reminded me why I am drawn to the world of animation and digital artistry. 
+            I hope Fontys sponsors this event again next year because I would love another 
+            opportunity to dive even deeper into these experiences. If they do, I might 
+            ask around to see if any teachers have an extra ticket for me. `
           }
         ]
       }
