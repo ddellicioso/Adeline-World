@@ -939,39 +939,41 @@ export const WorksList = [
         content:
         [
           {
-            text: `I visited the Fontys ICT career day at TQ on 17th April from 1PM 
-            to 4PM. I mainly visited specializations and minors/advanced stands since 
-            I needed to choose with path I'm going to take for the next semesters. I 
-            didn't visit the companies floor because I was focused on choosing which 
-            specialization to choose. `
+            text: `Attending the Fontys ICT Career Day at TQ on April 17 was an important 
+            opportunity for me to shape my next academic steps. I went in with a clear 
+            focus—I needed to choose a specialization for the coming semester. Instead 
+            of exploring company booths, I prioritized visiting stands related to 
+            specializations and advanced studies, seeking insights that would help me 
+            align my education with my long-term passion for media.`
           },
           {
-            text: `I'm only interested in media related studies so that's what I mainly 
-            went to, like Game Design, Front-end Development, Media Creation, and Mobile 
-            App Development. I asked the teachers various questions like the job opportunities, 
-            what will I learn if I join the study, and details about projects that they 
-            have. Talking to these stands really helped me choose which study suits me 
-            and my passion as a media student, so I ended up signing up for media creation 
-            because my love for creating and designing media content.`, 
-            images: [CareerDayPhoto],
-            text: `Shout out to Chris for helping me took this amazing picture!`,
-            
+            text: `Since my primary interest lies in media-related studies, I made sure 
+            to check out specializations like Game Design, Front-end Development, Media 
+            Creation, and Mobile App Development. I asked teachers key questions about 
+            job opportunities, coursework, and the types of projects involved. These 
+            conversations provided invaluable clarity, helping me recognize that Media 
+            Creation is the perfect fit for my interests. My love for designing and 
+            producing media content made this choice feel natural—it aligns with my 
+            creative strengths and future aspirations.`, 
+            images: [CareerDayPhoto, CareerDayGameDesign],
           },
           {
-            images: [CareerDayGameDesign]
+            text: `Beyond specializations, I explored advanced studies such as 
+            Human-Centered Design and Immersive Experiences. The Human-Centered 
+            Design approach resonated with me deeply. Since I’ve already engaged 
+            with similar concepts in Media Design, this field feels versatile and 
+            applicable across multiple disciplines. Immersive Experiences also stood 
+            out—given how rapidly technology is evolving, this area holds exciting 
+            potential. However, my priority remains solidly rooted in Media Creation, 
+            as it best supports my long-term goal of working in creative media production.`
           },
           {
-            text: `I also visited some advanced studies like Human Centered Design, and 
-            Immersive Experiences. I like the idea of Human Centered Design because 
-            that's what I've been learning in Media Design and learning this study is 
-            very versatile because I could implement it to almost every study. Immersive 
-            Experience is also pretty versatile, and with growing technology, I feel like
-            Immersive Experience has bright future.`
-          },
-          {
-            text: `Overall, I've been joining career day since I was semester 1 and it's 
-            always been very informative event to attend. In my next semester, I should 
-            focus on talking to companies during the event so I can plant an internship.`
+            text: `Reflecting on the event, Career Day has been a valuable experience 
+            since my first semester, and it continues to help me refine my direction. 
+            Moving forward, I plan to shift my focus during next semester’s Career Day 
+            to engaging with companies. Establishing connections and discussing 
+            internship opportunities will be a crucial next step in preparing for my 
+            professional future.`
           }
         ]
       }
@@ -1064,5 +1066,105 @@ export const WorksList = [
       }
     ]
   },
+  // ------------------------------------------- Future Plan --------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3", value: true  },
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Future Plan: Academic & Career Path",
+    url: "FuturePlan",
+    process: [
+      {
+        title: `Current Focus`,
+        content: [
+          {
+            text: `Throughout my academic journey, I've consistently been drawn 
+            to media-related studies,  particularly in animation, design, and 
+            digital content creation. Initially, I was interested in Game Design, 
+            assuming it would involve elements of 3D modelling and artistic 
+            creation. However, after exploring the field further, I realized 
+            that Game Design is primarily coding focused, which isn't my 
+            preferred direction.`
+          },
+          {
+            text: `With Fontys introducing Media Creation in its updated curriculum, 
+            I found a specialization that truly reflects my creative passions. 
+            Media creation covers a video production, animation, and digital 
+            storytelling, making it the perfect choice for me. During Career Day, 
+            I engaged in meaningful discussions with teachers, which solidified my 
+            decision to pursue Media Creation as my specialization.`
+          }
+        ]
+      },
+      {
+        title: `Skills & Specialization`,
+        content: [
+          {
+            text: `	To complement my focus on Media Creation, I am also exploring 
+            Human-Centered Design, as its principles apply widely across UI/UX, 
+            animation, and interactive media. Understanding how to design user 
+            friendly experiences enhances the effectiveness of my creative work, 
+            making my skills more versatile. Additionally, Immersive Experience 
+            is a promising field given the rapid advancements in technology, and 
+            I aim to integrate elements of immersive media into my projects where 
+            possible. `
+          },
+          {
+            text: `	At the same time, I am actively working on my React.js portfolio, 
+            not because it directly connects to Media Creation, but to broaden my 
+            technical skill set. Having proficiency in front-end development makes 
+            me more adaptable within the ICT industry, increasing my chances of 
+            securing an internship or job. While my top career priority is in art 
+            and media, my backup options include UI/UX design, and if necessary, 
+            front-end development. Even though front-end is my lowest-ranked option, 
+            I want to ensure I have versatile technical skills that allow me to be 
+            flexible in the job market.`
+          }
+        ]
+      },
+      {
+        title: `Long-term Goals`,
+        content: [
+          {
+            text: `	My ultimate goal is to work in creative media production, focusing 
+            on animation, video creation, and interactive and digital content. I want 
+            to develop engaging visual storytelling experiences that bring ideas to 
+            life. By specializing in Media Creation, while also integrating 
+            Human-Centered Design principles and basic front-end development skills, 
+            I am preparing myself for a well-rounded career in digital media.`
+          }
+        ]
+      },
+      {
+        title: `Next Steps`,
+        content: [
+          {
+            list: [`Semester goals: Fully engage in Media Creation studies while applying Human-Centered Design principles to enhance my creative projects.`,
+              `Internship Preparation: Shift my focus in the next Career Day toward networking with companies and exploring internship opportunities.`,
+              `Technical Development: Continue refining my React.js skills, ensuring I have a practical backup skill set that makes me more competitive in the ICT field.`,
+              `Creative Expansion: Experiment more with animation, sculpting, and digital media projects, deepening my artistic skills and portfolio.`
+            ]
+          }
+        ]
+      },
+      {
+        title: `Final Thoughts`,
+        content: [
+          {
+            text: `Attending events like The Art Department and Career Day has been 
+            essential in refining my academic and career path. Moving forward, I will 
+            continue balancing art-focused education with technical adaptability, 
+            ensuring I am prepared for both creative roles and practical ICT opportunities.`
+          }
+        ]
+      }
+    ]
+  }
   
 ];
