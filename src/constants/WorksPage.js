@@ -1068,13 +1068,13 @@ export const WorksList = [
   },
   // ------------------------------------------- Future Plan --------------------------------------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeFive`],
     fittingOutcomes: [
       { outcomeNum: "1" },
       { outcomeNum: "2" },
-      { outcomeNum: "3", value: true  },
+      { outcomeNum: "3"},
       { outcomeNum: "4"},
-      { outcomeNum: "5"},
+      { outcomeNum: "5", value: true  },
     ],
     id: "1",
     title: "Future Plan: Academic & Career Path",
