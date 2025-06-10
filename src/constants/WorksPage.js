@@ -642,10 +642,13 @@ export const WorksList = [
             adjusting line weight, and integrating the bird motif more seamlessly into 
             the branding.`,
             images: [PlataleaBirdBoard],
+            
+          },
+          {
             subheading: `Feedback 1.1`,
             list: [`The bird illustration is interesting but too detailed for a logo, simplify it into a stylized shape.`,
               `The line drawing of the spoonbill looks good but feels disconnected from the text, needs to integrate it more naturally.`
-            ] 
+            ]  
           }
         ]
       },
@@ -658,10 +661,13 @@ export const WorksList = [
             to merge it with the typography for a more cohesive look and tested different 
             positions and sizes for balance.`,
             images: [PlataleaBannerIteration],
+            
+          },
+          {
             subheading: `Feedback 2.1`,
             list: [`The dark blue background makes the text harder to read, adjust contrast or try a lighter background`,
               `The pink background is eye-catchin, but the spoonbill's placement needs more intention`
-            ]
+            ] 
           }
         ]
       },
@@ -674,6 +680,9 @@ export const WorksList = [
             to improve readability. Additionally, I tested font combinations for better 
             balance between futuristic aesthetics and legibility.`,
             images: [PlataleaLogoFinalIteration],
+            
+          },
+          {
             subheading: `Feedback 3.1`,
             list: [`Positioning the bird on the "L" was unexpected but works well`,
               `The stylized pink bird stands out while maintaining elegance`
