@@ -65,7 +65,8 @@ import studioPlataleaTeamCharter from "../assets/pdf/studioPlataleaTeamCharter.p
 
 // studio Platalea Moodboard //
 import studioPlataleaMoodboard from "../assets/png/studioPlataleaMoodboard.png";
-import studioPlataleaBanner from "../assets/png/studioPlataleaBanner.png";
+import PlataleaFontIteration from "../assets/worksPhotos/PlataleaFontIteration.png"
+import PlataleaBirdBoard from "../assets/worksPhotos/PlataleaBirdBoard.png"
 
 // Studio Platalea Logo //
 import studioPlataleaLogoProcess from "../assets/worksPhotos/studioPlataleaLogoProcess.png";
@@ -556,29 +557,56 @@ export const WorksList = [
         title: `Context`,
         content: [
           {
-            text: `We each made mood boards of what we think Studio Platalea ‘s style could be. 
-          Before started in working on the individual mood board, we discussed about which clients we want to work with; 
-          we chose Maikel and Petra inc. as our first choice because the project sounds cool, and we already have an idea 
-          what we can do for it. The Night of The Nerds are our second choice as their theme of project are also interesting. `
+            text: `We each created mood boards to explore how Studio Platalea’s style could evolve. Before diving into individual designs, 
+            we discussed the types of clients we wanted to work with. We chose Maikel and Petra Inc. as our first option, since their 
+            project sounded exciting and we already had initial ideas. Our second choice was The Night of The Nerds, whose theme also 
+            intrigued us. `
           },
           {
-            text: `Since both of the clients are somewhat kind of technology-ish, I had an idea of using a lot of futuristic/cyberpunk
-            theme for our studio, I also figured using chrome elements might be good and fitting. Before hand, we agreed on our 
-            color palette, so I looked for a futuristic element that has somehow same colors as our agreed colors. 
-            I used Pinterest as a media to search for the images I want and used Canva to make the mood board. 
-            After my team finished making their mood board, we showed each other’s and decide which style we want to go with.`,
+            text: `Since both clients align with technology-driven aesthetics, I envisioned a futuristic, cyberpunk-inspired direction for 
+            our studio. Chrome elements seemed like a strong, fitting choice. With an agreed-upon color palette in mind, I searched for 
+            visuals that matched its tones. Pinterest helped me collect references, while Canva was my tool for assembling the mood board.`,
             images: [studioPlataleaMoodboard]
           },
+          
+        ]
+      },
+      {
+        feedbackTitle: `Feedback from peers 1`,
+        feedback: `After completing our mood boards, we shared them within the team to refine our vision based on peer feedback:`,
+        list: [`They liked the chrome elements`, `Liked the serif font`, `Encouraged sticking to the agreed color palette`]
+        
+      },
+      {
+        title: `Iteration 1`,
+        content: [
           {
-            feedbackTitle: `Feedback from peers 1`,
-            feedback: `I asked my peers for some feedbacks during our moodboard showcase. They liked the chrome elements, liked the serif font used, liked the color palette. 
-            Since they liked the serif font, I tired to combine it with a script font.`,
-            
+            text: `Instead of seeing their suggestions as corrections, I viewed them as opportunities to refine the concept further. 
+            Inspired by their positive reaction to the serif font, I experimented by pairing it with a script font, adding more 
+            personality. This iterated version of font later on used as our main font for the logo.`,
+            images: [PlataleaFontIteration],
+            feedbackTitle: `Feedback from peers 2`,
+            list: [`They liked the font combination`, `Noticed that the "P" resembled a bird's head and beak`, `Suggested developing this as a branding element`],
+          }
+        ]
+      },
+      {
+        title: `Iteration 2`,
+        content: [
+          {
+            text: `After peers pointed out that the "P" looked like a bird's head and beak,
+             I embraced the idea and refined it further. I adjusted the shape and 
+             proportions to make the resemblance more intentional, ensuring the beak curve
+              and head alignment felt cohesive. I tested different stylizations, like 
+              simplifying the form, experimenting with line weight, and exploring how the 
+              bird motif could integrate seamlessly into our branding. `,
+            images: [PlataleaBirdBoard]
           },
           {
-            feedbackTitle: `Feedback from peers 2`,
-            feedback: `My teammates liked the font combination, the 'p' looked like the head of a bird and its beak, and we can use it as our banner.`,
-            images: [studioPlataleaBanner],
+            text: `More iteration about the bird logo can be found below`,
+            linkTo: `studioPlataleaLogo`,
+            linkToLO: `LearningOutcomeThree`,
+            linkToText: `Studio Platalea Logo`,
           }
         ]
       }
