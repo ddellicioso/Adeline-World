@@ -167,20 +167,13 @@ export const WorksList = [
 
   // ---------------------- Portfolio Moodboard ---------------------------- //
   {
-    outcomes: [`LearningOutcomeThree`, ],
+    outcomes: [`LearningOutcomeOne` ],
     fittingOutcomes: [
       { outcomeNum: "1", value: true  },
       { outcomeNum: "2" },
       { outcomeNum: "3"},
       { outcomeNum: "4"},
       { outcomeNum: "5" },
-    ],
-    outcomeDesc: [
-      {
-        title: "LO 3 - Iterative Design",
-        desc: "Design process went through several iterations based on external feedbacks, until finalized.",
-      },
-    
     ],
     id: "1",
     title: "Portfolio Moodboard",
@@ -535,20 +528,15 @@ export const WorksList = [
 
   // ------------------- Studio Platalea Moodboard ------------------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeThree`, `LearningOutcomeOne`],
     fittingOutcomes: [
-      { outcomeNum: "1" },
+      { outcomeNum: "1" , value: true  },
       { outcomeNum: "2" },
       { outcomeNum: "3", value: true  },
       { outcomeNum: "4"},
       { outcomeNum: "5"},
     ],
-    outcomeDesc: [
-      {
-        title: "LO 3 - Iterative Design",
-        desc: "Design process went through several iterations based on external feedbacks, until finalized.",
-      }
-    ],
+
     id: "1",
     title: "Studio Platalea Moodboard",
     project: "Studio Project",
