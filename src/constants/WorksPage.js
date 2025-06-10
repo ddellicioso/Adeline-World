@@ -555,10 +555,13 @@ export const WorksList = [
             our studio. Chrome elements seemed like a strong, fitting choice. With an agreed-upon color palette in mind, I searched for 
             visuals that matched its tones. Pinterest helped me collect references, while Canva was my tool for assembling the mood board.`,
             images: [studioPlataleaMoodboard],
+            
+          },
+          {
             feedbackTitle: `Feedback from peers 1`,
             feedback: `After completing our mood boards, we shared them within the team to refine our vision based on peer feedback:`,
             list: [`They liked the chrome elements`, `Liked the serif font`, `Encouraged sticking to the agreed color palette`]
-          },
+          }
         ]
       },
       {
