@@ -254,8 +254,8 @@ export const WorksList = [
             images: [LowFidelityPortfolio]
           },
           {
-            feedbackTitle: `A/B Testing Feedbacks`,
-            feedback: `I made a low fidelity prototype based on the sketch, I had two 
+            subheading: `A/B Testing Feedbacks`,
+            text: `I made a low fidelity prototype based on the sketch, I had two 
             different layouts of the content so I could do some A/B testing. `,
             list: [`A lot of people liked the big image ones`, `The small image leaves too much space/blank space`, 
               `Loved the learning outcome checklist`, `The "aside section v1" of the description is user friendly`,
@@ -558,8 +558,8 @@ export const WorksList = [
             
           },
           {
-            feedbackTitle: `Feedback from peers 1`,
-            feedback: `After completing our mood boards, we shared them within the team to refine our vision based on peer feedback:`,
+            subheading: `Feedback from peers 1`,
+            text: `After completing our mood boards, we shared them within the team to refine our vision based on peer feedback:`,
             list: [`They liked the chrome elements`, `Liked the serif font`, `Encouraged sticking to the agreed color palette`]
           }
         ]
@@ -572,7 +572,7 @@ export const WorksList = [
             Inspired by their positive reaction to the serif font, I experimented by pairing it with a script font, adding more 
             personality. This iterated version of font later on used as our main font for the logo.`,
             images: [PlataleaFontIteration],
-            feedbackTitle: `Feedback from peers 2`,
+            subheading: `Feedback from peers 2`,
             list: [`They liked the font combination`, `Noticed that the "P" resembled a bird's head and beak`, `Suggested developing this as a branding element`],
           }
         ]
@@ -642,7 +642,7 @@ export const WorksList = [
             adjusting line weight, and integrating the bird motif more seamlessly into 
             the branding.`,
             images: [PlataleaBirdBoard],
-            feedbackTitle: `Feedback 1.1`,
+            subheading: `Feedback 1.1`,
             list: [`The bird illustration is interesting but too detailed for a logo, simplify it into a stylized shape.`,
               `The line drawing of the spoonbill looks good but feels disconnected from the text, needs to integrate it more naturally.`
             ] 
@@ -658,7 +658,7 @@ export const WorksList = [
             to merge it with the typography for a more cohesive look and tested different 
             positions and sizes for balance.`,
             images: [PlataleaBannerIteration],
-            feedbackTitle: `Feedback 2.1`,
+            subheading: `Feedback 2.1`,
             list: [`The dark blue background makes the text harder to read, adjust contrast or try a lighter background`,
               `The pink background is eye-catchin, but the spoonbill's placement needs more intention`
             ]
@@ -674,7 +674,7 @@ export const WorksList = [
             to improve readability. Additionally, I tested font combinations for better 
             balance between futuristic aesthetics and legibility.`,
             images: [PlataleaLogoFinalIteration],
-            feedbackTitle: `Feedback 3.1`,
+            subheading: `Feedback 3.1`,
             list: [`Positioning the bird on the "L" was unexpected but works well`,
               `The stylized pink bird stands out while maintaining elegance`
             ]
