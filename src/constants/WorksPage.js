@@ -69,7 +69,8 @@ import PlataleaFontIteration from "../assets/worksPhotos/PlataleaFontIteration.p
 import PlataleaBirdBoard from "../assets/worksPhotos/PlataleaBirdBoard.png"
 
 // Studio Platalea Logo //
-import studioPlataleaLogoProcess from "../assets/worksPhotos/studioPlataleaLogoProcess.png";
+import PlataleaBannerIteration from "../assets/worksPhotos/PlataleaBannerIteration.png"
+import PlataleaLogoFinalIteration from "../assets/worksPhotos/PlataleaLogoFinalIteration.png"
 
 // Studio Platalea Stylescapes //
 import studioPlataleaFontsStyle from "../assets/worksPhotos/studioPlataleaFontsStyle.png";
@@ -629,16 +630,68 @@ export const WorksList = [
     url: "studioPlataleaLogo",
     process: [
       {
+        title: `Introduction`,
         content: [
           {
-            text: `From the last peer feedback, I tried to execute the idea of making the “P” looking like the spoonbill bird. `
-          },
+            text: `Building on the mood board phase, we explored how Studio Platalea’s 
+            branding could evolve into a distinct logo. Early peer feedback highlighted 
+            the potential in my font choices, specifically how the "P" resembled a bird’s 
+            head and beak. This unexpected detail led to a deeper exploration of bird 
+            imagery in the branding process.`,
+            text: `	To refine the concept, I experimented with different stylizations to 
+            make the bird motif feel intentional, integrating it into the design while 
+            ensuring it complemented the futuristic/cyberpunk theme established earlier. 
+            Through peer and teacher feedback, several iterations helped shape the final 
+            logo.`
+          }
+        ]
+      },
+      {
+        title: `Iteration 1`,
+        content: [
           {
-            text: `My teammate’s mood board has a Shutterstock image of different poses of a spoonbill, and I traced one of the 
-            pose’s outlines and put a color on it. Then, I was thinking where we can put this outline somewhere on the banner logo, 
-            and BOOM, I accidentally put the bird on the letter “L” and it looked amazing. I showed the result to my peer, and we 
-            all agreed that we should use this as our complete logo and use the stand-alone bird and the “L” as our icon.`,
-            images: [studioPlataleaLogoProcess]
+            text: `After peers pointed out that the "P" looked like a bird’s head and 
+            beak, I refined the shape and proportions to make the resemblance more 
+            intentional. I tested different stylizations, such as simplifying the form, 
+            adjusting line weight, and integrating the bird motif more seamlessly into 
+            the branding.`,
+            images: [PlataleaBirdBoard],
+            feedbackTitle: `Feedback 1.1`,
+            list: [`The bird illustration is interesting but too detailed for a logo, simplify it into a stylized shape.`,
+              `The line drawing of the spoonbill looks good but feels disconnected from the text, needs to integrate it more naturally.`
+            ] 
+          }
+        ]
+      },
+      {
+        title: `Iteration 2`,
+        content: [
+          {
+            text: `Based on feedback, I simplified the spoonbill illustration, refining 
+            the outlines and adjusting its placement within the logo. I explored ways 
+            to merge it with the typography for a more cohesive look and tested different 
+            positions and sizes for balance.`,
+            images: [PlataleaBannerIteration],
+            feedbackTitle: `Feedback 2.1`,
+            list: [`The dark blue background makes the text harder to read, adjust contrast or try a lighter background`,
+              `The pink background is eye-catchin, but the spoonbill's placement needs more intention`
+            ]
+          }
+        ]
+      },
+      {
+        title:`Iteration 3`,
+        content: [
+          {
+            text: `I refined the bird illustration further, adjusting proportions and 
+            simplifying details for clarity. I also explored different background colors 
+            to improve readability. Additionally, I tested font combinations for better 
+            balance between futuristic aesthetics and legibility.`,
+            images: [PlataleaLogoFinalIteration],
+            feedbackTitle: `Feedback 3.1`,
+            list: [`Positioning the bird on the "L" was unexpected but works well`,
+              `The stylized pink bird stands out while maintaining elegance`
+            ]
           }
         ]
       }
