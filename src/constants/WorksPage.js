@@ -539,7 +539,6 @@ export const WorksList = [
     id: "1",
     title: "Studio Platalea Moodboard",
     project: "Studio Project",
-    // coverImage: clientMeetingCover,
     url: "studioPlataleaMoodboard",
     process: [
       {
@@ -557,7 +556,6 @@ export const WorksList = [
             visuals that matched its tones. Pinterest helped me collect references, while Canva was my tool for assembling the mood board.`,
             images: [studioPlataleaMoodboard]
           },
-          
         ]
       },
       {
@@ -593,9 +591,6 @@ export const WorksList = [
           },
           {
             text: `More iteration about the bird logo can be found below`,
-            linkTo: `studioPlataleaLogo`,
-            linkToLO: `LearningOutcomeThree`,
-            linkToText: `Studio Platalea Logo`,
           }
         ]
       }
