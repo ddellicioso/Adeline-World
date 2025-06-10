@@ -166,9 +166,9 @@ export const WorksList = [
   {
     outcomes: [`LearningOutcomeThree`, ],
     fittingOutcomes: [
-      { outcomeNum: "1"},
+      { outcomeNum: "1", value: true  },
       { outcomeNum: "2" },
-      { outcomeNum: "3", value: true  },
+      { outcomeNum: "3"},
       { outcomeNum: "4"},
       { outcomeNum: "5" },
     ],
