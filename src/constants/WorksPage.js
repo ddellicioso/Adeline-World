@@ -71,6 +71,7 @@ import PlataleaBirdBoard from "../assets/worksPhotos/PlataleaBirdBoard.png"
 // Studio Platalea Logo //
 import PlataleaBannerIteration from "../assets/worksPhotos/PlataleaBannerIteration.png"
 import PlataleaLogoFinalIteration from "../assets/worksPhotos/PlataleaLogoFinalIteration.png"
+import StudioPlataleaLogo from "../assets/worksPhotos/Theme=Dark.png"
 
 // Studio Platalea Stylescapes //
 import studioPlataleaFontsStyle from "../assets/worksPhotos/studioPlataleaFontsStyle.png";
@@ -692,6 +693,35 @@ export const WorksList = [
             list: [`Positioning the bird on the "L" was unexpected but works well`,
               `The stylized pink bird stands out while maintaining elegance`
             ]
+          }
+        ]
+      },
+      {
+        title: `Final Logo Version`,
+        content: [
+          {
+            text: `Through multiple iterations, feedback, and refinement, the final 
+            logo successfully integrates the spoonbill motif into the typography. The 
+            standalone bird and the modified “L” now serve as Studio Platalea’s 
+            recognizable branding elements, reinforcing the studio’s identity and 
+            futuristic design approach.`,
+            images: [StudioPlataleaLogo]
+          }
+        ]
+      },
+      {
+        title: `What I learned`,
+        content: [
+          {
+            text: `This whole process taught me a lot about embracing unexpected 
+            ideas, what started as a random observation about the “P” looking like a 
+            bird ended up becoming the centerpiece of our branding. Iteration was 
+            super important too; each round of feedback helped refine the design, 
+            making it more intentional and polished. I also realized how much balance 
+            matters, simplifying the bird and adjusting colors made a huge difference 
+            in making the logo more versatile. Getting different perspectives from 
+            my teammates and teacher pushed the design in directions I wouldn’t have 
+            thought of on my own, and that really made the final result stronger.`
           }
         ]
       }
