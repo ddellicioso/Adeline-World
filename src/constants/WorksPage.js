@@ -528,9 +528,9 @@ export const WorksList = [
 
   // ------------------- Studio Platalea Moodboard ------------------- //
   {
-    outcomes: [`LearningOutcomeOne`,`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeThree`],
     fittingOutcomes: [
-      { outcomeNum: "1" , value: true  },
+      { outcomeNum: "1"},
       { outcomeNum: "2" },
       { outcomeNum: "3", value: true  },
       { outcomeNum: "4"},
@@ -591,6 +591,9 @@ export const WorksList = [
           },
           {
             text: `More iteration about the bird logo can be found below`,
+            linkTo: `studioPlataleaLogo`,
+            linkToLO: `LearningOutcomeThree`,
+            linkToText: `Studio Platalea Logo`,
           }
         ]
       }
