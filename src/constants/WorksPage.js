@@ -572,6 +572,9 @@ export const WorksList = [
             Inspired by their positive reaction to the serif font, I experimented by pairing it with a script font, adding more 
             personality. This iterated version of font later on used as our main font for the logo.`,
             images: [PlataleaFontIteration],
+            
+          },
+          {
             subheading: `Feedback from peers 2`,
             list: [`They liked the font combination`, `Noticed that the "P" resembled a bird's head and beak`, `Suggested developing this as a branding element`],
           }
