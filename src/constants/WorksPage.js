@@ -528,9 +528,9 @@ export const WorksList = [
 
   // ------------------- Studio Platalea Moodboard ------------------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeOne`,`LearningOutcomeThree`],
     fittingOutcomes: [
-      { outcomeNum: "1"},
+      { outcomeNum: "1" , value: true  },
       { outcomeNum: "2" },
       { outcomeNum: "3", value: true  },
       { outcomeNum: "4"},
@@ -554,15 +554,12 @@ export const WorksList = [
             text: `Since both clients align with technology-driven aesthetics, I envisioned a futuristic, cyberpunk-inspired direction for 
             our studio. Chrome elements seemed like a strong, fitting choice. With an agreed-upon color palette in mind, I searched for 
             visuals that matched its tones. Pinterest helped me collect references, while Canva was my tool for assembling the mood board.`,
-            images: [studioPlataleaMoodboard]
+            images: [studioPlataleaMoodboard],
+            feedbackTitle: `Feedback from peers 1`,
+            feedback: `After completing our mood boards, we shared them within the team to refine our vision based on peer feedback:`,
+            list: [`They liked the chrome elements`, `Liked the serif font`, `Encouraged sticking to the agreed color palette`]
           },
         ]
-      },
-      {
-        feedbackTitle: `Feedback from peers 1`,
-        feedback: `After completing our mood boards, we shared them within the team to refine our vision based on peer feedback:`,
-        list: [`They liked the chrome elements`, `Liked the serif font`, `Encouraged sticking to the agreed color palette`]
-        
       },
       {
         title: `Iteration 1`,
