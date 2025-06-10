@@ -528,7 +528,7 @@ export const WorksList = [
 
   // ------------------- Studio Platalea Moodboard ------------------- //
   {
-    outcomes: [`LearningOutcomeThree`, `LearningOutcomeOne`],
+    outcomes: [`LearningOutcomeOne`,`LearningOutcomeThree`],
     fittingOutcomes: [
       { outcomeNum: "1" , value: true  },
       { outcomeNum: "2" },
@@ -536,7 +536,6 @@ export const WorksList = [
       { outcomeNum: "4"},
       { outcomeNum: "5"},
     ],
-
     id: "1",
     title: "Studio Platalea Moodboard",
     project: "Studio Project",
