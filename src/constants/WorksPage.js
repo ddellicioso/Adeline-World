@@ -119,7 +119,7 @@ import RecipeAppButtons from "../assets/worksPhotos/RecipeAppButtons.png"
 import recipeAppSketch from "../assets/worksPhotos/recipeAppSketch.png"
 import RoutingFile from "../assets/worksPhotos/RoutingFile.png"
 import TailwindExample from "../assets/worksPhotos/TailwindExample.png"
-
+import UsabilityDashboard from "../assets/worksPhotos/usabilitydashboard.pdf.png"
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -1289,13 +1289,13 @@ export const WorksList = [
   },
   // ---------------------------------------- Savore Recipe App ----------------------------------------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [ `LearningOutcomeOne`, `LearningOutcomeTwo`, `LearningOutcomeThree`,`LearningOutcomeFour`,`LearningOutcomeFive`],
     fittingOutcomes: [
-    { outcomeNum: "1" },
-    { outcomeNum: "2" },
-    { outcomeNum: "3", value: true  },
-    { outcomeNum: "4"},
-    { outcomeNum: "5"},
+    { outcomeNum: "1" , value: true  },
+    { outcomeNum: "2" , value: true  },
+    { outcomeNum: "3" , value: true  },
+    { outcomeNum: "4" , value: true  },
+    { outcomeNum: "5" , value: true  },
   ],
     id: "1",
     title: "Savoré Recipe App",
@@ -1358,7 +1358,7 @@ export const WorksList = [
             images: [recipeAppSketch]
           },
           {
-            feedbackTitle: `Feedbacks 1`,
+            subheading: `Feedbacks 1`,
             text: `I showed my fellow students my concept of the app and 
             asked what they think of it`,
             list: [`Nice colors combination`, 
@@ -1376,7 +1376,7 @@ export const WorksList = [
             images: [RecipeAppButtons]
           },
           {
-            feedbackTitle: `Feedback 2`,
+            subheading: `Feedback 2`,
             text: `I approached several teachers as well as students 
             to test the interactivity of the prototype. To conduct 
             the user test properly and thoroughly, I used a 
@@ -1390,18 +1390,102 @@ export const WorksList = [
               `Very straightforward and clear`
             ],
           },
+        ]
+      },
+      {
+        title: `User Test with Usability Test Plan`,
+        content: [
           {
-            text: `A full content of the Usability Test Plan can be found down below. 
-            I also received some feedbacks on my user test skill and how it improve 
-            it better,`,
-            list: [`Testing is too simple`,
-              `Needs to give harder instructions`,
-              `'Hide' the obvious element to increase the difficulty`
-            ],
-            linkTo: `studioPlataleaLogo`,
-            linkToLO: `LearningOutcomeThree`,
-            linkToText: `Studio Platalea Logo`,
+            text: `To validate that this app is user-friendly and user-centered, I 
+            conducted a few user test to my fellow students and several teachers.
+            By using this Usability Dashboard, I was able to conduct it nicely.`,
+            images: [UsabilityDashboard]
           },
+          {
+            subheading: `Product Under Test`,
+            text: `We are evaluating Savoré, a mobile-first Progressive Web 
+            App that allows home cooks to sign up, log in, and manage their 
+            personal recipe collection. Key features include adding photos, 
+            ingredients, and step-by-step instructions, browsing and filtering 
+            by category, and offline access.`,
+          },
+          {
+            subheading: `Business Case`, 
+            text: `By catching usability issues before broader release, we 
+            reduce future development cost and increase adoption and retention 
+            through a more intuitive UI. Without testing, we risk users 
+            abandoning the app due to confusion around recipe creation or 
+            navigation.`
+          },
+          {
+            subheading: `Test Objectives`,
+            text: `The goals of this usability test are to:`,
+            list: [
+              `Identify any friction in adding and editing a recipe 
+              (especially the “+ add ingredient” and “+ add step” controls).`,
+              `Evaluate how easily users discover and use the Add Recipe feature.`,
+              `Verify navigation flow—from viewing a recipe list to editing or returning back.`
+            ]
+          },
+          {
+            subheading: `Hypotheses`,
+            text: `Users will easily find how to add new ingredients/steps.
+            Users will understand how to navigate back and forth between screens.`
+          },
+          {
+            subheading: `Participants`,
+            text: `We recruited 4–6 individuals: a mix of fellow students and 
+            teachers, all familiar with basic mobile apps but not with Savoré. 
+            Their ages ranged from 19 to 45 and they cook at least once per week.`
+          },
+          {
+            subheading: `Equipment & Prototype`,
+            text: `Testing was conducted in person using a facilitator’s laptop 
+            running our Figma prototype. Observers took notes in a notes app.`
+          },
+          {
+            subheading: `Test Tasks`,
+            text: `Participants were asked to:`,
+            list: [
+              `Log in to the app`,
+              `Locate and view the full details of a sample recipe`,
+              `Edit the recipe (change an ingredient or step)`,
+              `Add a brand-new recipe from scratch`,
+              `Navigate back to the recipe list`
+            ]
+          },
+          {
+            subheading: `Summary of User Feedback`,
+            list: [
+              `Liked the overall concept of a recipe-management PWA.`,
+              `UI is generally clear, but font size was noted as potentially too small on mobile.`,
+              `Suggested adding clearer labels for “Create Account” and “Add Recipe.”`,
+              `“+” buttons for ingredients/steps felt too small—recommend adding a subtle background shape so they don’t overlap content.`,
+              `Wanted a Back to recipes link or button at the bottom of the details page as well as the top.`,
+              `Appreciated the pink “+” contrast—found it very visible.`,
+              `Described the flow as “very straightforward” and knew exactly where to find each function.`,
+              `Thought the big yellow Add-Recipe button was familiar and inviting.`
+            ]
+          },
+          {
+            subheading: `What I Learned`,
+            list: [
+              `Real users quickly reveal tiny but critical issues—font 
+              legibility, button placement, and visual affordance all matter.`,
+              `Testing on an actual mobile device (not just desktop browser) 
+              is essential for sizing and tap targets.`,
+              `Even small UI tweaks (background behind “+” icons, repositioning 
+              action buttons) greatly improve clarity.`
+            ]
+          },
+          {
+            subheading: `What Could be Better`,
+            list: [
+              `Increase font sizes globally for readability on smaller screens.`,
+              `Refine button hover/tap states to be less visually jarring.`,
+              `Continue iterating on task labeling (“Add account” vs. “Sign up,” etc.).`
+            ]
+          }
         ]
       },
       {
@@ -1416,7 +1500,10 @@ export const WorksList = [
             state, React Router for navigation, and VitePWA to register a service 
             worker with cache strategies. The full stack app is deployed with Fly.io, and can be found here: `,
             links: [
-
+              {
+                url: `https://recipe-app-summer-pond-2519.fly.dev/`,
+                text: `Savoré Recipe App`
+              }
             ]
           },
           {
