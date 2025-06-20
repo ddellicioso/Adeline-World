@@ -1537,7 +1537,13 @@ export const WorksList = [
             passwords are hashed with bcrypt.hashSync; on login, I compare 
             with bcrypt.compareSync and sign a token with jwt.sign({ id }, 
             JWT_SECRET). Protected routes then verify tokens in middleware.`,
-            images: [JWTAuthentication]
+            images: [JWTAuthentication],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/controllers/authController.js?ref_type=heads`,
+                text: `authController`
+              }
+            ]
           },
           {
             subheading: `Image Uploads with Muller`,
@@ -1546,7 +1552,17 @@ export const WorksList = [
             I then attached upload.single('image') to the POST and PUT 
             recipe routes so the file field is parsed and stored before my 
             controller runs.`,
-            images: [MulterSetup]
+            images: [MulterSetup],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/server.js?ref_type=heads`,
+                text: `server.js`
+              },
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/routes/recipeRoutes.js?ref_type=heads`,
+                text: `recipeRoutes.js`
+              }
+            ]
           },
           {
             subheading: `CORS & Environment Variables`,
@@ -1555,7 +1571,13 @@ export const WorksList = [
             process.env.CORS_ORIGIN. I loaded secrets (JWT secret and CORS 
             origin) via dotenv from server/.env. This ensured only my 
             deployed frontend could call the API.`,
-            images : [CORS_Setup]
+            images : [CORS_Setup],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/.env?ref_type=heads`,
+                text: `.env file`
+              }
+            ]
           },
           {
             subheading: `Routing & Error Handling`,
@@ -1565,7 +1587,13 @@ export const WorksList = [
             added a catch-all 404 for unknown /api/* endpoints and a 
             global error handler app.use((err, req, res, next) => …) 
             at the bottom.`,
-            images: [RoutingFile]
+            images: [RoutingFile],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/routes/authRoutes.js?ref_type=heads`,
+                text: `authRoutes.js`
+              }
+            ]
           },
           {
             subheading: `React Context for Auth State`,
@@ -1575,7 +1603,13 @@ export const WorksList = [
             via useContext(AuthContext) across all pages, so I 
             could guard routes and inject the Authorization header 
             easily.`,
-            images: [ContextLogic]
+            images: [ContextLogic],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/src/context/AuthContext.jsx?ref_type=heads`,
+                text: `AuthContext.jsx`
+              }
+            ]
           },
           {
             subheading: `Dynamic Forms in "Add Recipe"`,
@@ -1586,7 +1620,13 @@ export const WorksList = [
             and clears the field. On submit, I serialize 
             arrays to comma-separated strings or newline-joined 
             instructions.`,
-            images: [DynamicForms]
+            images: [DynamicForms],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/src/pages/AddRecipePage.jsx?ref_type=heads`,
+                text: `AddRecipePage.jsx`
+              }
+            ]
           },
           {
             subheading: `Tailwind CSS Theming`,
@@ -1596,7 +1636,17 @@ export const WorksList = [
             the Nunito font. I then applied utility classes 
             throughout JSX to build our responsive layout 
             without writing custom CSS.`,
-            images: [TailwindExample]
+            images: [TailwindExample],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/tailwind.config.js?ref_type=heads`,
+                text: `tailwind.config,js`
+              },
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/src/pages/EditRecipePage.jsx?ref_type=heads`,
+                text: `Example of tailwind in EditRecipePage.jsx`
+              }
+            ]
           },
           {
             subheading: `PWA Setup with Vite`,
@@ -1606,7 +1656,13 @@ export const WorksList = [
             strategies (NetworkFirst for API, CacheFirst for static 
             assets). This turned the app into an installable PWA with 
             offline capabilities.`,
-            images: [PWA_PLugin]
+            images: [PWA_PLugin],
+            links: [
+              {
+                url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/vite.config.js?ref_type=heads`,
+                text: `vite.config.js`
+              }
+            ]
           },
           
         ]
