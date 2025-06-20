@@ -108,6 +108,19 @@ import OverrideCodeSnippet from "../assets/worksPhotos/OverrideCodeSnippet.png"
 import BootstrapCode from "../assets/worksPhotos/BootstrapCode.png"
 import FinalBlog from "../assets/worksPhotos/FinalBlog2.png"
 
+// Savore Recipe App //
+import ContextLogic from "../assets/worksPhotos/ContextLogic.png"
+import CORS_Setup from "../assets/worksPhotos/CORS_Setup.png"
+import DynamicForms from "../assets/worksPhotos/DynamicForms.png"
+import JWTAuthentication from "../assets/worksPhotos/JWT-authentication.png"
+import MulterSetup from "../assets/worksPhotos/MulterSetup.png"
+import PWA_PLugin from "../assets/worksPhotos/PWA-Plugin.png"
+import RecipeAppButtons from "../assets/worksPhotos/RecipeAppButtons.png"
+import recipeAppSketch from "../assets/worksPhotos/recipeAppSketch.png"
+import RoutingFile from "../assets/worksPhotos/RoutingFile.png"
+import TailwindExample from "../assets/worksPhotos/TailwindExample.png"
+
+
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
   {
@@ -1269,6 +1282,327 @@ export const WorksList = [
             essential in refining my academic and career path. Moving forward, I will 
             continue balancing art-focused education with technical adaptability, 
             ensuring I am prepared for both creative roles and practical ICT opportunities.`
+          }
+        ]
+      }
+    ]
+  },
+  // ---------------------------------------- Savore Recipe App ----------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+    { outcomeNum: "1" },
+    { outcomeNum: "2" },
+    { outcomeNum: "3", value: true  },
+    { outcomeNum: "4"},
+    { outcomeNum: "5"},
+  ],
+    id: "1",
+    title: "Savoré Recipe App",
+    project: "Personal Project",
+    url: "SavoreRecipeApp",
+    process: [
+      {
+        title: `Project Overview`,
+        content: [
+          {
+            text: `Savoré allows home cooks to create an account, log in, 
+            and manage their recipe collection on any device—even offline. 
+            Users can browse recipes by category, view full details (photo, 
+            ingredients, instructions), add new recipes with dynamic 
+            ingredient/step inputs, edit or delete entries, and install 
+            the app to their phone via PWA support. The frontend is built 
+            with React, Tailwind CSS, and VitePWA, and the backend uses 
+            Express, SQLite, JWT authentication, and Multer for image uploads.`
+          }
+        ]
+      },
+      {
+        title: `Background & Concept Validation`,
+        content: [
+          {
+            text: `The idea for Savoré grew out of my own frustration: I was 
+            constantly hunting through screenshots, recipe websites, and 
+            scribbled notes just to remember what ingredients I needed. I 
+            distilled that into a simple problem statement for myself:`
+          },
+          {
+            text: `“I want a quick, offline-capable app where I can snap a 
+            photo of a dish and jot down ingredients and steps in one place.”`
+          },
+          {
+            text: `To check that this wasn’t just me being lazy, I did a brief 
+            competitor review of three popular recipe apps. I noted how each 
+            one forced me online at inconvenient times, hid their edit controls 
+            behind multiple taps, or made adding photos a multi-step ordeal. 
+            That lightweight comparison convinced me there was room for a 
+            lean, photo-centric, offline-first solution.`
+          }
+        ]
+      },
+      {
+        title: `Wireframes & UI Iterations`,
+        content: [
+          {
+            subheading: `Iteration 1`,
+            text: `I began by hand-sketching five primary screens to map out 
+            Savoré’s core flows: a landing-page teaser, login/signup, recipe 
+            list, recipe details, and the add-recipe form. These wireframes 
+            focused on interactions—like dynamic ingredient rows and a 
+            prominent “add” button—without yet worrying about color or 
+            typography. Drawing on UI research (Pinterest trends, competitor 
+            apps, and color-contrast tests), I settled on a dark blue 
+            background punctuated by pink (#FBE9EF) and yellow (#FFF9C7) 
+            accents for both contrast and appetizing warmth. In my first 
+            mockups, a large yellow add button clearly commanded attention.`,
+            images: [recipeAppSketch]
+          },
+          {
+            feedbackTitle: `Feedbacks 1`,
+            text: `I showed my fellow students my concept of the app and 
+            asked what they think of it`,
+            list: [`Nice colors combination`, 
+              `Looks simple and straightforward to navigate`,
+              `Wants to try it out after the app is deployed`]
+          },
+          {
+            subheading: `Iteration 2`,
+            text: `After my friends approved my concept and ideas of the 
+            recipe app, I translated the sketch into a high prototype 
+            fidelity in Figma. I made sure I added necessary features and made it 
+            interactive, so I can do a user test on it. I made several 
+            designs of the 'add recipe' button with different combination 
+            of colors and style`,
+            images: [RecipeAppButtons]
+          },
+          {
+            feedbackTitle: `Feedback 2`,
+            text: `I approached several teachers as well as students 
+            to test the interactivity of the prototype. To conduct 
+            the user test properly and thoroughly, I used a 
+            Usability Dashboard and filled it out with my objectives.
+            Here are the feedbacks I received from both teachers and students:`,
+            list: [`Likes the idea`,
+              `UI is clear`,
+              `Font might be too small`,
+              `Either big yellow button or pink circle button, depends on personal preference`,
+              `The edit button needs to be more prominent`,
+              `Very straightforward and clear`
+            ],
+          },
+          {
+            text: `A full content of the Usability Test Plan can be found down below. 
+            I also received some feedbacks on my user test skill and how it improve 
+            it better,`,
+            list: [`Testing is too simple`,
+              `Needs to give harder instructions`,
+              `'Hide' the obvious element to increase the difficulty`
+            ],
+            linkTo: `studioPlataleaLogo`,
+            linkToLO: `LearningOutcomeThree`,
+            linkToText: `Studio Platalea Logo`,
+          },
+        ]
+      },
+      {
+        title: `Implementation & Deployment`,
+        content: [
+          {
+            text: `With the help of ChatGPT, I set up a monorepo with separate client/ (React + Tailwind) 
+            and server/ (Express + SQLite) folders. Feature branches and descriptive 
+            commit messages kept work organized. The Express API handles JWT-based 
+            registration/login, CRUD for recipes (including image uploads via 
+            Multer), and CORS configuration. The React app uses Context for auth 
+            state, React Router for navigation, and VitePWA to register a service 
+            worker with cache strategies. The full stack app is deployed with Fly.io, and can be found here: `,
+            links: [
+
+            ]
+          },
+          {
+            subheading: `JWT Authentication & Password Hashing`,
+            text: `I implemented user registration and login with bcryptjs for 
+            password hashing and jsonwebtoken for issuing JWTs. On register, 
+            passwords are hashed with bcrypt.hashSync; on login, I compare 
+            with bcrypt.compareSync and sign a token with jwt.sign({ id }, 
+            JWT_SECRET). Protected routes then verify tokens in middleware.`,
+            images: [JWTAuthentication]
+          },
+          {
+            subheading: `Image Uploads with Muller`,
+            text: `To support recipe photos, I configured Multer’s diskStorage 
+            to save uploads under server/uploads/ with a timestamped filename. 
+            I then attached upload.single('image') to the POST and PUT 
+            recipe routes so the file field is parsed and stored before my 
+            controller runs.`,
+            images: [MulterSetup]
+          },
+          {
+            subheading: `CORS & Environment Variables`,
+            text: `I used the cors middleware to restrict API access to 
+            my frontend’s origin, pulling the allowed URL from 
+            process.env.CORS_ORIGIN. I loaded secrets (JWT secret and CORS 
+            origin) via dotenv from server/.env. This ensured only my 
+            deployed frontend could call the API.`,
+            images : [CORS_Setup]
+          },
+          {
+            subheading: `Routing & Error Handling`,
+            text: `Routes were split into authRoutes and recipeRoutes, 
+            each in their own file under server/routes/. I mounted them 
+            in server/server.js under /api/auth and /api/recipes. I 
+            added a catch-all 404 for unknown /api/* endpoints and a 
+            global error handler app.use((err, req, res, next) => …) 
+            at the bottom.`,
+            images: [RoutingFile]
+          },
+          {
+            subheading: `React Context for Auth State`,
+            text: `I created an AuthContext that stores token, 
+            login(), and logout() functions. Wrapping the app in 
+            <AuthProvider> made auth state and methods available 
+            via useContext(AuthContext) across all pages, so I 
+            could guard routes and inject the Authorization header 
+            easily.`,
+            images: [ContextLogic]
+          },
+          {
+            subheading: `Dynamic Forms in "Add Recipe"`,
+            text: `In AddRecipePage.jsx, I used useState to 
+            manage form fields plus separate arrays for 
+            ingredients and steps. Clicking the “+ add” 
+            button pushes the current input into the list 
+            and clears the field. On submit, I serialize 
+            arrays to comma-separated strings or newline-joined 
+            instructions.`,
+            images: [DynamicForms]
+          },
+          {
+            subheading: `Tailwind CSS Theming`,
+            text: `I customized Tailwind’s default theme in 
+            tailwind.config.js to include our brand colors 
+            (navy, pastelPink, pastelYellow, pastelAccent) and 
+            the Nunito font. I then applied utility classes 
+            throughout JSX to build our responsive layout 
+            without writing custom CSS.`,
+            images: [TailwindExample]
+          },
+          {
+            subheading: `PWA Setup with Vite`,
+            text: `Using vite-plugin-pwa, I added a web app manifest 
+            (name, icons, theme colors) and Workbox runtime caching rules. 
+            I configured navigateFallback: '/index.html' and caching 
+            strategies (NetworkFirst for API, CacheFirst for static 
+            assets). This turned the app into an installable PWA with 
+            offline capabilities.`,
+            images: [PWA_PLugin]
+          },
+          
+        ]
+      },
+      {
+        title: `Key Learnings`,
+        content: [
+          {
+            text: `	Throughout the Savoré project, I gained a deeper 
+            appreciation for how small, thoughtful design and development 
+            decisions can have a big impact on usability, performance, and 
+            maintainability. Early on, I discovered that tuning basic UI 
+            elements—like font sizes, button placement, and hover 
+            states—can dramatically improve how quickly users understand 
+            and navigate the app. Integrating PWA features with Workbox 
+            taught me the complexities of service-worker caching strategies 
+            (NetworkFirst for content freshness and StaleWhileRevalidate 
+            for speed), and reinforced the need to test offline fallbacks 
+            thoroughly. Deploying the frontend to Vercel alongside an 
+            Express API on Render highlighted real-world considerations 
+            around CORS configuration, environment-variable management, 
+            and monorepo root settings. Finally, maintaining a professional 
+            Git workflow—regular branching, clear pull requests, and 
+            disciplined commit messaging—proved essential to keep the 
+            codebase organized and collaborative.`,
+            list: [
+              `	User-centered design: Small UI tweaks (font sizing, 
+              button placement, hover states) can make or break a user’s 
+              first impression.`,
+              `PWA caching: Configuring Workbox strategies and testing 
+              offline scenarios exposed the real challenges of reliable 
+              service-worker behavior.`,
+              `	Full-stack integration: Connecting a Vite frontend and 
+              Express backend in production required careful handling 
+              of CORS, environment variables, and build roots.`,
+              `	Professional workflows: Consistent branching, pull requests, 
+              and commit hygiene are critical for a maintainable, 
+              team-friendly codebase.`
+            ]
+          }
+        ]
+      },
+      {
+        title: `Future Improvements`,
+        content: [
+          {
+            text: `	While Savoré is fully functional, there are several 
+            areas where I can enhance the app’s robustness, scalability, 
+            and accessibility. Introducing automated test suites would 
+            catch regressions early and give confidence as the feature 
+            set grows. Migrating the database from SQLite to PostgreSQL 
+            (with proper migrations via Knex or Sequelize) would prepare 
+            us for more users and concurrent writes. Improving 
+            accessibility—by adding ARIA roles, refining keyboard 
+            navigation, and offering a high-contrast theme—would make 
+            the app usable by a wider audience. Setting up continuous 
+            integration (e.g. GitHub Actions) to lint, type-check, test, 
+            and build on every pull request will enforce quality gates. 
+            Finally, the feature roadmap includes social sharing, recipe 
+            tagging/search, user ratings, and an insights dashboard to 
+            enrich the user experience.`
+          },
+          {
+            subheading: `Next Steps`,
+            list: [
+              `Feature Roadmap: Plan for social sharing, recipe 
+              tagging/search, user ratings, and an analytics dashboard.`,
+              `Automated Testing: Add Jest and React Testing Library for 
+              frontend, plus Supertest for API endpoints.`,
+              `Database Scalability: Switch from SQLite to PostgreSQL with 
+              a migration tool (Knex/Sequelize).`,
+            ]
+          }
+        ]
+      },
+      {
+        title: `What I Learned`,
+        content: [
+          {
+            text: `	Working on Savoré taught me not only the nuts and 
+            bolts of modern web development but also the value of 
+            collaborative problem-solving—even when your collaborator 
+            is an AI. I leaned heavily on ChatGPT to help scaffold the 
+            Express backend, debug tricky errors, and refine my server 
+            configuration for production, which accelerated my learning 
+            and boosted my confidence in full-stack development.`
+          },
+          {
+            subheading: `Key Takeaways:`,
+            list: [
+              `User-Centered Design: Small visual and interaction tweaks 
+              (font sizes, button placement, hover states) can vastly 
+              improve usability.`,
+              `PWA Mechanics: Configuring service-worker strategies 
+              (NetworkFirst vs. StaleWhileRevalidate) and testing offline 
+              fallbacks revealed real-world caching challenges.`,
+              `Full-Stack Deployment: Coordinating a Vite React frontend 
+              on Vercel with an Express API on Render highlighted CORS 
+              policies, environment-variable management, and monorepo 
+              root settings.`,
+              `Professional Workflow: Adopting disciplined branching, 
+              pull requests, and clear commit messaging is vital for 
+              maintainable, collaborative code.`,
+              `AI-Assisted Development: Leveraging ChatGPT as a coding 
+              partner helped me rapidly prototype routes, troubleshoot 
+              bugs, and understand backend best practices.`
+            ]
           }
         ]
       }
