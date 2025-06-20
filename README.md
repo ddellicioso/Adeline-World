@@ -7,7 +7,7 @@
 
 ## 🚀 Live Demo
 Check it out on Vercel:  
-[https://adeline-sem-3-portfolio.vercel.app](https://adeline-sem-3-portfolio.vercel.app)
+[https://adeline-sem-3-portfolio.vercel.app](https://adeline-world.vercel.app/WorksPage/LearningOutcomeOne)
 
 ---
 
