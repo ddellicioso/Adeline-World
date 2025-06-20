@@ -120,6 +120,8 @@ import recipeAppSketch from "../assets/worksPhotos/recipeAppSketch.png"
 import RoutingFile from "../assets/worksPhotos/RoutingFile.png"
 import TailwindExample from "../assets/worksPhotos/TailwindExample.png"
 import UsabilityDashboard from "../assets/worksPhotos/usabilitydashboard.pdf.png"
+import RecipeAppUIResearch from "../assets/pdf/RecipeAppUIResearch.pdf"
+
 
 export const WorksList = [
   // ------------------------------ Studio Platalea Brandguide ------------------------------ //
@@ -1343,6 +1345,28 @@ export const WorksList = [
       {
         title: `Wireframes & UI Iterations`,
         content: [
+          {
+            subheading: `Research on UI of Recipe Apps`,
+            text: `Before starting to create anything, I began by defining 
+            the scope of a Progressive Web App–based recipe manager and then 
+            dove into UI/UX research, first gathering visual inspiration 
+            via a Pinterest board—spotting warm, appetite-stimulating palettes, 
+            clean layouts, and readable yet playful typography—and then 
+            auditing competitor apps to note strengths like intuitive 
+            navigation and weaknesses like cumbersome multi-step recipe 
+            retrieval. You next articulated your user needs—fast, manual 
+            recipe entry and low-friction access for a busy student—and 
+            conducted color-contrast testing in Adobe’s tool to select a 
+            dark-blue background paired with pink (#FBE9EF) and yellow 
+            (#FFF9C7), both of which passed WCAG AA/AAA for readability 
+            and harnessed color psychology to evoke calmness and appetite. 
+            Finally, you synthesized these insights into a streamlined design 
+            direction emphasizing instant search or categorized folders, 
+            minimalist navigation, robust tagging/filtering/favoriting, 
+            and personalized UI elements to deliver an engaging, highly 
+            accessible recipe experience.`,
+            document: RecipeAppUIResearch,
+          },
           {
             subheading: `Iteration 1`,
             text: `I began by hand-sketching five primary screens to map out 
