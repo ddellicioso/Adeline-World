@@ -106,6 +106,11 @@ import SecondShowcase from '../assets/worksPhotos/SecondShowcase.jpg'
 // Misread Development //
 import TextEffectManager from "../assets/worksPhotos/TextEffectManager.png"
 import SliderHandler from "../assets/worksPhotos/SliderHandler.png"
+
+// Third showcase //
+import ThirdShowcaseTable from "../assets/worksPhotos/ThirdShowcaseTable.jpg"
+import ThirdShowCaseDirk from "../assets/worksPhotos/ThirdShowCaseDirk.jpg"
+
 // MOSCOW //
 import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 
