@@ -94,6 +94,11 @@ import DyslexiaPosterGood from "../assets/worksPhotos/DyslexiaGoodPoster.png"
 import DyslexiaPosterFinal from "../assets/worksPhotos/DyslexiaFinalPoster.png"
 import FirstShowcaseFeedback from "../assets/worksPhotos/FirstShowcaseFeedback.png"
 
+// misread prototyping //
+import WebsiteSketch from "../assets/worksPhotos/WebsiteSketch.jpg"
+import InfoPageOld from "../assets/worksPhotos/InfoPageOld.png"
+import InfoPageOld2 from "../assets/worksPhotos/InfoPageOld2.png"
+import InfoPageNew from "../assets/worksPhotos/InfoPageNew.png"
 // MOSCOW //
 import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 
@@ -981,6 +986,115 @@ export const WorksList = [
             Feedback from teachers and peers helped me realize that a good design also needs context, it should communicate 
             the concept, not just look nice. I also learned the value of iteration, teamwork, and staying open to criticism 
             to improve the final result.`
+          }
+        ]
+      }
+    ]
+  },
+  // ----------------------------------------------- Misread Prototyping -------------------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3", value: true  },
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Misread Prototyping",
+    project: "Group Project",
+    url: "misreadPrototyping",
+    process: [
+      {
+        title: `Context`,
+        content: [
+          {
+            text: `After the poster showcase finished, we began to 
+            creating wireframes for our gamified website. We started 
+            on brainstorming what pages we want to have, how it would 
+            look like, and who will do which page(s). We took a whiteboard 
+            and used it as our media to brainstorm. From our discussion, 
+            we will have pages like: Home page, Information (on how the 
+            visual effects will look like) page, Game setup page, and 
+            Gameplay page. `,
+            images: [WebsiteSketch]
+          }
+        ]
+      },
+      {
+        title: `Prototyping`,
+        content: [
+          {
+            subheading: `Iteration 1`,
+            text: `I was tasked to create Information page, so I 
+            drew my idea on the whiteboard and my teammates seem to 
+            like the idea, so I moved on to create a wireframe version 
+            of the page. I wanted it to be a scrolling parallax with some 
+            previews of the visual effects as user scroll through the page. `,
+            images: [InfoPageOld]
+          },
+          {
+            subheading: `Feedbacks from team`,
+            text: `After finishing up with the wireframe, I showed my 
+            teammates the page and they gave some valuable feedbacks, such as:`,
+            list: [
+              `Users must scroll longer to read`,
+              `Typographic labels only, no visual anchors`,
+              `Feels static and non-interactive`
+            ]
+          },
+          {
+            subheading: `Iteration 2`,
+            text: `Receiving the feedbacks, I thought of something better 
+            to tackle the potential user problem. I came up with grid 
+            flippable cards, where if you hover/click one of the card, 
+            the card will be flipped show the respective visual effects.`,
+            images: [InfoPageOld2]
+          },
+          {
+            subheading: `Feedbacks from team`,
+            list: [
+              `Playful and interactive`,
+              `Might be hard to implement`,
+              `Doesn't work with mobiles`,
+              `Suggested to add a pop-up instead`
+            ]
+          },
+          {
+            subheading: `Iteration 3`,
+            text: `My teammate asked me if I can make it into a pop-up, 
+            for example, if a user clicked on one of the card, a pop-up 
+            section will appear showing a preview effect with a slider to 
+            increase/decrease the intensity of the effect.`,
+            images: [InfoPageNew]
+          },
+          { 
+            subheading: `Feedback from team`,
+            list: [
+              `Very interactive`,
+              `The slider handle is a cool feature, will make users engaged`
+            ]
+          }
+        ]
+      },
+      {
+        title: `What I Learned`,
+        content: [
+          {
+            text: `	Starting off with a whiteboard and some quick wireframes 
+            really paid off, it let us map out all our pages and spot 
+            issues before we spent hours on high fidelity mockups. As I 
+            got feedbacks, my design naturally shifted, from a cool 
+            parallax scroll to flippable cards and finally to a pop-up 
+            modal with a slider. That journey taught me to balance "fun" 
+            ideas with what's actually doable and mobile friendly and to 
+            always ask: "Is this going to engage people?"
+            Above all, working side by side with teammates, sketching, 
+            critiquing, and choosing our favorite approach together, showed 
+            me the real value of collaboration. Rapid prototyping and honest 
+            feedback helped us turn rough concepts into a more interactive, 
+            accessible, and user-centered experience.`
           }
         ]
       }
