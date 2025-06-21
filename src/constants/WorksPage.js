@@ -1120,7 +1120,7 @@ export const WorksList = [
     id: "1",
     title: "Second Showcase (Prototype)",
     project: "Studio Project",
-    url: "studioPlataleaTeamCharter",
+    url: "MisreadSecondShowcase",
     process: [
       {
         content: [
@@ -1260,6 +1260,92 @@ export const WorksList = [
             I created components, imported components, and used my teammates 
             components. I also helped my fellow teammate who wasn’t familiar
              with React to create and debug their page.`
+          }
+        ]
+      }
+    ]
+  },
+  // ------------------------------------------------------- Third Showcase ----------------------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeOne`],
+    fittingOutcomes: [
+      { outcomeNum: "1" , value: true  },
+      { outcomeNum: "2" },
+      { outcomeNum: "3"},
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Third Showcase",
+    project: "Client Project",
+    url: "MisreadThirdShowcase",
+    process: [
+      {
+        content: [
+          {
+            text: `On June 18th, for our final showcase, we set up a 
+            borrowed laptop from ISSD next to our poster and invited 
+            everyone to try out the website game.`,
+            images: [ThirdShowcaseTable]
+          },
+          {
+            text: `We had a steady stream of visitors all morning, 
+            and here's a snapshot of the feedback we received:`,
+            list: [
+              `Dirk: “I really felt the effect with the large 
+              text—great demo of what dyslexia can look like. It’s 
+              more of an experience than just a game, and both 
+              aspects work well.”`,
+              `Jan: “The mouse-clearing effect is spot-on for 
+              simulating dyslexia. I had to really focus—impressive! 
+              Putting it in a browser makes total sense, and I 
+              love that there are multiple effects.”`,
+              `Josh: “Holy—this is really good! Does the clear-mouse 
+              effect work on touchscreens or phones? I had a blast testing it.”`,
+              `Berry: “Top-tier project—could’ve won. One suggestion: 
+              clarify that the reordering task is about putting 
+              sentences in the order they appear in the text (like 
+              the Einstein/solar eclipse example).”`
+            ],
+            images: [ThirdShowCaseDirk]
+          }
+        ]
+      },
+      {
+        title: `Presentation to client, teachers, and peers`,
+        content: [
+          {
+            text: `In between the hands-on demos, we gathered on the 
+            wooden stairs for a 10 minutes live presentation. We opened 
+            with a catching question and ran through the agenda, then 
+            dug into why dyslexia matters, our key insights, and 
+            finally our game concept with its four simulated distortions. `
+          },
+          {
+            text: `We didn't provide a live demo, because we thought 
+            maybe it's better if people would come to our table and 
+            tried it out themselves.  In the end, we expressed that 
+            we would like to continue working on the project since 
+            there are other things we could implement, for example,
+             multiplayer settings.`
+          }
+        ]
+      },
+      {
+        title: `Reflection`,
+        content: [
+          {
+            text: `	By the end of the showcase, I was exhausted but 
+            exhilarated. Watching dozens of people, from curious 
+            classmates to busy clients, stop by our table and 
+            genuinely engage with the game felt incredibly rewarding. 
+            It was gratifying to see spontaneous "wow" moments 
+            when users hovered over the blurred text. 
+	          With the team, I left feeling more confident in our product. 
+            The day highlighted how much passion and creativity exists 
+            around accessibility, and it reaffirmed our commitment to 
+            refining Misread into a tool that’s not only insightful but
+             genuinely fun to play.`
           }
         ]
       }
