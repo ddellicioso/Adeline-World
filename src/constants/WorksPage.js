@@ -99,6 +99,10 @@ import WebsiteSketch from "../assets/worksPhotos/WebsiteSketch.jpg"
 import InfoPageOld from "../assets/worksPhotos/InfoPageOld.png"
 import InfoPageOld2 from "../assets/worksPhotos/InfoPageOld2.png"
 import InfoPageNew from "../assets/worksPhotos/InfoPageNew.png"
+
+// second showcase //
+import SecondShowcase from '../assets/worksPhotos/SecondShowcase.jpg'
+
 // MOSCOW //
 import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 
@@ -1100,8 +1104,108 @@ export const WorksList = [
       }
     ]
   },
+  // ------------------------------------------------------- Second Showcase -------------------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeThree`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" },
+      { outcomeNum: "3", value: true  },
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Second Showcase (Prototype)",
+    project: "Studio Project",
+    url: "studioPlataleaTeamCharter",
+    process: [
+      {
+        content: [
+          {
+            text: `On May 15th, we held our second showcase for the client 
+            project. We decided to demo our interactive prototypes and run 
+            quick user tests. Our team split into two pairs, taking turns 
+            guiding visitors through each session.`
+          },
+          {
+            text: `During my shift at the table, six people stopped by—and 
+            I later learned two of them have dyslexia. Interestingly, they 
+            breezed through the questions faster than the non-dyslexic 
+            participants. They mentioned they could relate to some of the 
+            simulated effects, even if it wasn’t quite as intense as 
+            real-life dyslexia.`
+          },
+          
+        ]
+      },
+      {
+        title: `Feedbacks from users`,
+        content: [
+          {
+            subheading: `Non-dyslexic users`,
+            list: [
+              `Nice way to inform people`,
+              `Too much reading`,
+              `Feels more like a quiz than a game`,
+              `Could make it more of an experience`,
+              `Mayve separate the questions into sections`
+            ]
+          },
+          {
+            subheading: `Dyslexic users`,
+            list: [
+              `Consistent theme`,
+              `Relate to some of the effects`,
+              `Effects kind of cancel out for dyslexic people`
+            ]
+          }
+        ]
+      },
+      {
+        title: `How These Feedbacks Affect the Project`,
+        content: [
+          {
+            text: `	The comments about text volume make it clear that we 
+            need to trim down on long passages and rely more on visuals. 
+            By swapping out chunks of reading for icons, graphics, or 
+            short voice cues, we can keep players’ attention—especially 
+            those who aren’t fans of dense text.
+	          A number of testers said it felt more like a quiz than a 
+            game, so we’ll be weaving in extra interactive elements: 
+            little animations, sound effects, or mini-challenges that 
+            turn each question into a moment of discovery rather than 
+            just ticking boxes. Alongside that, splitting questions 
+            into clearly defined sections will give the experience a 
+            better flow, making it obvious when you’re moving from one
+             topic to the next.
+            On the dyslexia front, since users felt the simulated effects 
+            sometimes “cancelled out,” we’ll tweak how we present text 
+            distortions: enough to spark empathy and understanding without 
+            making the game frustrating or unusable. Finally, the positive 
+            feedback on our visual theme reassures us that the overall 
+            design is on point—so we’ll keep that consistency across all 
+            screens as we roll out these refinements.`
+          }
+        ]
+      },
+      {
+        content: [
+          {
+            text: `On another note, I also made a point of trying out a 
+            few other groups' projects, and there were so many cool 
+            ideas on display. My favorite was Friend with Benefits, 
+            their questions was hilarious and I would play it with my 
+            friends. Unfortunately, I'd already finish filling up my 
+            feedback form before I got to their station, so I wasn’t 
+            able to jot down my thought in the moment. `,
+            images: [SecondShowcase]
+          }
+        ]
+      }
+    ]
+  },
 
-  // ------------------- MoSCoW Method ------------------- //
+  // --------------------------------------------- MoSCoW Method --------------------------------------------- //
   {
     outcomes: [`LearningOutcomeFour`],
     fittingOutcomes: [
