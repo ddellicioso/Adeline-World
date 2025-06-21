@@ -103,6 +103,9 @@ import InfoPageNew from "../assets/worksPhotos/InfoPageNew.png"
 // second showcase //
 import SecondShowcase from '../assets/worksPhotos/SecondShowcase.jpg'
 
+// Misread Development //
+import TextEffectManager from "../assets/worksPhotos/TextEffectManager.png"
+import SliderHandler from "../assets/worksPhotos/SliderHandler.png"
 // MOSCOW //
 import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
 
@@ -1106,11 +1109,11 @@ export const WorksList = [
   },
   // ------------------------------------------------------- Second Showcase -------------------------------------------------- //
   {
-    outcomes: [`LearningOutcomeThree`],
+    outcomes: [`LearningOutcomeOne`],
     fittingOutcomes: [
-      { outcomeNum: "1" },
+      { outcomeNum: "1" , value: true  },
       { outcomeNum: "2" },
-      { outcomeNum: "3", value: true  },
+      { outcomeNum: "3"},
       { outcomeNum: "4"},
       { outcomeNum: "5"},
     ],
@@ -1199,6 +1202,64 @@ export const WorksList = [
             feedback form before I got to their station, so I wasn’t 
             able to jot down my thought in the moment. `,
             images: [SecondShowcase]
+          }
+        ]
+      }
+    ]
+  },
+
+  // ---------------------------------------------- Misread Development ---------------------------------------------- //
+  {
+    outcomes: [`LearningOutcomeTwo`],
+    fittingOutcomes: [
+      { outcomeNum: "1" },
+      { outcomeNum: "2" , value: true  },
+      { outcomeNum: "3"},
+      { outcomeNum: "4"},
+      { outcomeNum: "5"},
+    ],
+    id: "1",
+    title: "Misread Development",
+    project: "Client Project",
+    url: "MisreadDevelopment",
+    process: [
+      {
+        title: `Context`,
+        content: [
+          {
+            text: `For this project me and the group agreed on using React with 
+            typescript to code our gamified website. Since I already know how 
+            to work with React because of my portfolio, so I had an easy time 
+            creating my page. `
+          }
+        ]
+      },
+      {
+        title: `Developing the information page`,
+        content: [
+          {
+            subheading: `Importing teammate's component`,
+            text: `My teammate, Andy, created the visual effects that we will 
+            use on both our website and gameplay. I imported them and used 
+            it in my info page.`,
+            images: [TextEffectManager]
+          },
+          {
+            subheading: `Slider Handler`,
+            text: `To  improve user interactivity, I added slider for users 
+            to increase/decrease intensity of the effects.`,
+            images: [SliderHandler]
+          }
+        ]
+      },
+      {
+        title: `What I Learned`,
+        content: [
+          {
+            text: `During the process, I familiarize myself more with React, 
+            I created components, imported components, and used my teammates 
+            components. I also helped my fellow teammate who wasn’t familiar
+             with React to create and debug their page.`
           }
         ]
       }
