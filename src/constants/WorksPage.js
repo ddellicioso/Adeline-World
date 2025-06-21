@@ -109,7 +109,7 @@ import SliderHandler from "../assets/worksPhotos/SliderHandler.png"
 
 // Third showcase //
 import ThirdShowcaseTable from "../assets/worksPhotos/ThirdShowcaseTable.jpg"
-import ThirdShowCaseDirk from "../assets/worksPhotos/ThirdShowCaseDirk.jpg"
+import ThirdShowCaseDirk from "../assets/worksPhotos/ThirdShowcaseTeachers.jpg"
 
 // MOSCOW //
 import MoscowDiagram from "../assets/worksPhotos/MoSCoW.png"
