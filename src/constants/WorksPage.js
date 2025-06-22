@@ -79,7 +79,7 @@ import studioPlataleaInitialStyle from "../assets/worksPhotos/studioPlataleaInit
 import studioPlataleaGeometryStyle from "../assets/worksPhotos/studioPlataleaGeometryStyle.png";
 
 // Personal Literature Research //
-import PersonalLiteratureStudyCognitive from "../assets/pdf/BarrierstoDigitalAccessibilityforPersonswithCognitiveDisabilities.pdf"
+import PersonalLiteratureStudyCognitive from "../assets/pdf/BarrierstoDigitalAccessibilityForPersonsWithCognitiveDisabilities2.pdf"
 
 // Double Diamond //
 import DoubleDiamondProjectKrom from "../assets/pdf/DoubleDiamondProjectKrom.pdf"
@@ -810,7 +810,7 @@ export const WorksList = [
     ]
   },
 
-  // --------- Personal Literature Research on Cognitive Disability --------- //
+  // ----------------------------------- Personal Literature Research on Cognitive Disability ------------------------------------ //
   {
     outcomes: [`LearningOutcomeFour`],
     fittingOutcomes: [
@@ -834,6 +834,34 @@ export const WorksList = [
             disability we want to focus. 
             I chose dyslexia because it's one of the common disability and I feel like majority of 
             people doesn't take it seriously, so I want to raise awareness about this disability.`,
+            
+          }
+        ]
+      },
+      {
+        title: `How These Findings Affect the Project`,
+        content: [
+          {
+            text: `Once I realized all the struggles folks with dyslexia 
+            face online, I ditched the idea of just explaining “what 
+            dyslexia is” and went for an actual “walk in their shoes” 
+            vibe. So instead of a brochure-style site, I built an 
+            interactive playground that makes you feel those headaches 
+            firsthand`,
+            list: [
+              `Simpler menus and clear paths: I ripped out any convoluted 
+              layouts and confusing dropdowns, swapping them for big, 
+              obvious buttons and a straightforward menu. No more hunting 
+              around for what’s next `,
+              `Text that wiggles and jumbles: To mimic how reading can 
+              feel for someone with dyslexia, I threw in sections where 
+              letters shuffle, spacing jumps around, and lines seem to 
+              wobble. You really get why steady focus is such a struggle `,
+              
+            ],
+            text: `In short, instead of a dry “here’s what dyslexia 
+            feels like” write-up, I made the site actually feel it, so 
+            empathy sticks way better than any bullet list ever could.`,
             document: [PersonalLiteratureStudyCognitive]
           }
         ]
