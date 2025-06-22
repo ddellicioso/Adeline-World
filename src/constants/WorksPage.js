@@ -175,14 +175,68 @@ export const WorksList = [
             the brandguide for our studio with Figma. I am in charge of thinking of the rules of our decorative geometry shapes. 
             For a context, during our last feedback on our moodboards, one of our teacher recommended us to think about rules for our 
             geometry shapes to give it some structure and help people who want to use our shapes to understand and follow the guidelines.`,
-            images: [studioPlataleaRuleGeometry],
+            images: [studioPlataleaRuleGeometry, studioPlataleaFinishedRule],
+          },
+        ]
+      },
+      {
+        title: `How I Came Up With the Rules`,
+        content: [
+          {
+            subheading: `Starting wtih the Brand Personality`,
+            text: `I kicked off by pinning down what our brand feels like: 
+            modern but friendly, structured but a bit playful. From that I 
+            knew I wanted simple geometry (triangles and squares) to keep 
+            things crisp, but with just a touch of softness—hence the one- 
+            and two-corner rounded squares. It gave me that balance of 
+            “serious” and “welcoming.”`
           },
           {
-            text: `I was sick during the making of the brandguide so I had to participate remotely from home.
-             I used 3 base colors from our color palette for the shapes; I thought that maybe we can make both light mode and dark mode 
-             (mainly for the website) shapes and colors, for light mode I used pink as the main background color, and dark blue for dark mode.
-             For the colors of the shapes, I just alternate the hue/saturation of the base colors to match with the background color depending on the mode. `,
-            images: [ studioPlataleaFinishedRule],
+            subheading: `Making it Modular with a Grid`,
+            text: `	Next, I set up a strict grid. Every shape snaps to a 
+            tile, and rotations only happen in 90° increments. That way, 
+            no matter where I place them, everything lines up cleanly and 
+            feels like it belongs together. Consistency for the win.`
+          },
+          {
+            subheading: `Choosing Colors that Play Well`,
+            text: `	Because our brand switches between light and dark 
+            backgrounds, I picked exactly three shape-colors per theme:`,
+            list: [
+              `Light theme: soft pink, warm rose, muted lavender`,
+              `Dark theme: vivid pink, dusty rose, deep midnight-blue`
+            ]
+          },
+          {
+            text: `If you ever mix them on the wrong background, 
+            things lose their punch or disappea, so I made it a rule 
+            that you only use those specific combos in their matching theme.`
+          },
+          {
+            subheading: `Opacity & No Outlines for a Layered Effect`,
+            text: `	I set shapes to 50% opacity and ditched outlines so 
+            they visually overlap and blend, kind of like watercolor tiles. 
+            It creates unexpected new hues and a sense of depth, without 
+            getting busy or distracting.`
+          },
+          {
+            subheading: `Placement`,
+            list: [
+              `Decorative blocks: I place shapes diagonally from top-left 
+              to bottom-right. It’s a subtle “arrow” that guides your eye 
+              across the page.`,
+              `Background pattern: I let them float wherever—but capped 
+              at 50% density, so the background never feels cluttered 
+              (and there’s always a 50/50 chance a grid square stays empty).`
+            ]
+          },
+          {
+            subheading: `Why These Rules Matter`,
+            text: `All together, these rules keep the look tight and on-brand, 
+            while still giving me (or anyone on the team) enough flexibility to 
+            build headers, patterns, or even animated transitions that feel 
+            dynamic but never messy. It’s like having guardrails that let you 
+            play without crashing into the ditch.`
           }
         ]
       },
@@ -1324,13 +1378,34 @@ export const WorksList = [
             text: `My teammate, Andy, created the visual effects that we will 
             use on both our website and gameplay. I imported them and used 
             it in my info page.`,
-            images: [TextEffectManager]
+            images: [TextEffectManager],
+            links: [
+              {
+                url: `https://git.fhict.nl/I506577/dyslexia-game/-/blob/prod/src/pages/InfoPage.tsx?ref_type=heads`,
+                text: `InfoPage.tsx in Git`
+              }
+            ]
           },
           {
             subheading: `Slider Handler`,
             text: `To  improve user interactivity, I added slider for users 
             to increase/decrease intensity of the effects.`,
-            images: [SliderHandler]
+            images: [SliderHandler],
+            links: [
+              {
+                url: `https://git.fhict.nl/I506577/dyslexia-game/-/blob/prod/src/components/info-page/PopUpCard.tsx?ref_type=heads`,
+                text: `PopUpCard.tsx in Git`
+              }
+            ]
+          },
+          {
+            text: `Fully deployed website can be found here,`,
+            links: [
+              {
+                url: `https://project-dyslexia.pages.dev/`,
+                text: `Misread`
+              }
+            ]
           }
         ]
       },
@@ -1988,7 +2063,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/controllers/authController.js?ref_type=heads`,
-                text: `authController`
+                text: `authController.js in Git`
               }
             ]
           },
@@ -2003,11 +2078,11 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/server.js?ref_type=heads`,
-                text: `server.js`
+                text: `server.js in Git`
               },
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/routes/recipeRoutes.js?ref_type=heads`,
-                text: `recipeRoutes.js`
+                text: `recipeRoutes.js in Git`
               }
             ]
           },
@@ -2022,7 +2097,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/.env?ref_type=heads`,
-                text: `.env file`
+                text: `.env file in Git`
               }
             ]
           },
@@ -2038,7 +2113,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/server/routes/authRoutes.js?ref_type=heads`,
-                text: `authRoutes.js`
+                text: `authRoutes.js in Git`
               }
             ]
           },
@@ -2054,7 +2129,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/src/context/AuthContext.jsx?ref_type=heads`,
-                text: `AuthContext.jsx`
+                text: `AuthContext.jsx in Git`
               }
             ]
           },
@@ -2071,7 +2146,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/src/pages/AddRecipePage.jsx?ref_type=heads`,
-                text: `AddRecipePage.jsx`
+                text: `AddRecipePage.jsx in Git`
               }
             ]
           },
@@ -2087,7 +2162,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/tailwind.config.js?ref_type=heads`,
-                text: `tailwind.config,js`
+                text: `tailwind.config,js in Git`
               },
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/src/pages/EditRecipePage.jsx?ref_type=heads`,
@@ -2107,7 +2182,7 @@ export const WorksList = [
             links: [
               {
                 url: `https://git.fhict.nl/I522224/recipe-pwa/-/blob/main/client/vite.config.js?ref_type=heads`,
-                text: `vite.config.js`
+                text: `vite.config.js in Git`
               }
             ]
           },
