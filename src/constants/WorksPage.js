@@ -859,6 +859,8 @@ export const WorksList = [
               wobble. You really get why steady focus is such a struggle `,
               
             ],
+          },
+          {
             text: `In short, instead of a dry “here’s what dyslexia 
             feels like” write-up, I made the site actually feel it, so 
             empathy sticks way better than any bullet list ever could.`,
@@ -911,7 +913,7 @@ export const WorksList = [
     ]
   },
 
-  // Group Literature Research on Dyslexia //
+  // -------------------------------------- Group Literature Research on Dyslexia --------------------------------------------- //
   {
     outcomes: [`LearningOutcomeFour`],
     fittingOutcomes: [
@@ -935,20 +937,67 @@ export const WorksList = [
             (people who has dyslexia) to interview them, but they are hard to find and we 
             do not have much time in our hands so I decided to focus on what we can get from
              the internet.`,
-            document: [GroupDyslexiaResearch]
+            
+          },
+          
+        ]
+      },
+      {
+        title: `My Contributions: Tools & Team Organization`,
+        content: [
+          {
+            text: `I jumped in on the section about physical and software 
+            tools, mapping out stuff like Text-to-Speech apps, speech-to-text 
+            dictation, dyslexia-friendly fonts, smart pens, and those handy 
+            reading overlays, basically anything that makes browsing a bit 
+            less of a headache. I made sure we didn’t just list these tools, 
+            but explained why each one matters in real life: how a smart pen 
+            can capture audio notes when spelling trips you up, or how 
+            browser extensions can turn every site into a dyslexia-friendly 
+            zone.`
+          },
+          {
+            text: `On top of that, I wrote up the “Team Organization & Workflow” 
+            bit. I laid out how we split tasks (research vs. design vs. testing), 
+            and looped in experts for quick feedback. This helped everyone stay 
+            on the same page and made sure our empathy-building demos actually
+             matched real dyslexic experiences`
+          }
+        ]
+      },
+      {
+        title: `How These Findings Affected the Project`,
+        content: [
+          {
+            text: `Once I saw what trips people up—jumbled text, scattered 
+            layouts, password struggles, I turned those pain points into 
+            features that you actually feel:`,
+            list: [
+              `Text Distortion Simulation: I coded letters to wobble, 
+              shuffle, and change spacing so you really sense how visual 
+              dyslexia can throw off your reading flow.`,
+              `Reading Interference Mechanics: I sprinkled in surprise 
+              word shifts and on-screen distractions to mirror that mental 
+              tug-of-war when your brain’s trying to decode text.`,
+              `Navigation Barriers: I built in awkward dropdowns and 
+              hidden menu items so you get why a “simple” site can feel 
+              like a maze.`,
+              
+            ]
           },
           {
             feedbackTitle: `Feedback from client`,
             feedback: `During our client meeting where we showed our research to the client, 
             they liked the idea of raising awareness by making a gamified website. The client 
-            really liked the research we did, and said that he would like to read the full document. `
+            really liked the research we did, and said that he would like to read the full document. `,
+            document: [GroupDyslexiaResearch]
           }
         ]
       }
     ]
   },
 
-  // ------------------- First Showcase - Poster ------------------ //
+  // ------------------------------ First Showcase - Poster ---------------------------- //
   {
     outcomes: [`LearningOutcomeThree`],
     fittingOutcomes: [
